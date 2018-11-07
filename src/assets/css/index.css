@@ -15,7 +15,19 @@ footer {
 	height: 100%;
 	margin: 0 auto;
 	width: 62.5%;
+}
 
+hr {
+	color: #e8e8e8;
+}
+
+.title {
+	font-size: 80px;
+}
+
+.sub-title {
+	font-size: 44px;
+	color: #A97B3F;
 }
 
 .header_title {
@@ -24,7 +36,7 @@ footer {
 	background-color: #282828;
 }
 
-.header_title .wrapper.top_title {
+.header_title .top_title.wrapper {
 	display: flex;
 	align-items: center;
 }
@@ -33,7 +45,6 @@ footer {
 	width: 320.23;
 	height: 88px;
 }
-
 
 .header_bar {
 	height: 632px;
@@ -48,13 +59,11 @@ footer {
 
 .header_bar .title {
 	font-weight: bold;
-	font-size: 80px;
 	color: #A97B3F;
 }
 
 .header_bar .sub-title {
 	color: white;
-	font-size: 44px;
 	width: 1200px;
 	padding-top: 27px;
 }
@@ -66,12 +75,7 @@ footer {
 	font-size: 28px;
 }
 
-.img_header {
-	height: 100%;
-	width:100%;
-}
-
-.header_bar .wrapper.header {
+.header_bar .header.wrapper {
 	padding-top: 93px;
 }
 
@@ -82,4 +86,62 @@ footer {
 	border-radius: 40px;
 	border: none;
 	font-size: 24px;
+}
+
+.coin_works {
+	text-align: center;
+	height: 726px;
+	width:100%;
+}
+
+.sub-title {
+	padding-top: 151px;
+}
+
+.description {
+	padding-top: 16px;
+	font-size: 24px;
+	padding-bottom: 68px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.row-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px;
+	align-items: center;
+}
+
+.row-item img {
+	width: 79.69px;
+	height: 79.69px;
+}
+
+.row-title {
+	padding-top: 28px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.row-description {
+	font-size: 22px;
+	min-width: 380px;
+}
+
+.coin_use {
+	text-align: center;
+	height: 657px;
+	background-color: #D8D8D8;
+	width:100%;
+}
+
+.coin_use .sub-title {
+	padding-top: 70px;
 }
