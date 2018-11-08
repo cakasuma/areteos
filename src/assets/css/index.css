@@ -17,14 +17,11 @@ footer {
 	width: 80%;
 }
 
-.wrapper hr {
+.seperator {
 	width: 800px;
-	color: #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	margin: 0 auto;
 }
-
-/* hr {
-	color: #e8e8e8;
-} */
 
 .title {
 	font-size: 80px;
@@ -41,7 +38,7 @@ footer {
 	background-color: #282828;
 }
 
-.header_title .top_title.wrapper {
+.header_title .top-title.wrapper {
 	display: flex;
 	align-items: center;
 }
@@ -171,7 +168,7 @@ footer {
 .first-item {
 	align-items: flex-start;
 }
-.first-item .sub-title {
+.coin_buy .first-item .sub-title {
 	min-width: 680px;
 }
 
@@ -231,4 +228,94 @@ footer {
 .second-item img {
 	height: 368px;
 	width: 452px;
+}
+
+.coin_redeem {
+	height: 690px;
+}
+
+.coin_redeem .row {
+	height: 100%;
+}
+
+.coin_redeem .sub-title {
+	padding-top: 61px;
+}
+
+.coin_redeem .description {
+	padding-top: 35px;
+	padding-bottom: 55px;
+	width: 430px;
+}
+
+.coin_redeem .second-item {
+	padding-right: 228px;
+}
+
+.techical_implementation {
+	text-align: center;
+	height: 657px;
+	width:100%;
+}
+
+.techical_implementation .sub-title {
+	padding-top: 70px;
+}
+
+.faq {
+	text-align: center;
+	width: 100%;
+	height: 1200px;
+}
+
+.faq .sub-title {
+	padding-top: 70px;
+}
+
+.faq-section {
+	text-align: left;
+}
+
+.question {
+	padding-top: 31px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.answer {
+	font-size: 22px;
+	padding-top: 16px;
+	padding-bottom: 31px;
+}
+
+.seperator-sub {
+	border-top: 1px solid #D8D8D8;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.faq .description {
+	padding-bottom: 50px;
+}
+
+.footer{
+	height: 343px;
+	width: 100%;
+	background-color: #282828;
+}
+
+.footer .wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.footer .wrapper img {
+	width: 320.23;
+	height: 88px;
+}
+
+.footer-bottom {
+	width: 100%;
+	height: 20px;
+	background-color: #A97B3F;
 }
