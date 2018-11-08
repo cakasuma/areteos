@@ -14,12 +14,17 @@ footer {
 .wrapper {
 	height: 100%;
 	margin: 0 auto;
-	width: 62.5%;
+	width: 80%;
 }
 
-hr {
-	color: #e8e8e8;
+.wrapper hr {
+	width: 800px;
+	color: #D8D8D8;
 }
+
+/* hr {
+	color: #e8e8e8;
+} */
 
 .title {
 	font-size: 80px;
@@ -116,7 +121,6 @@ hr {
 	flex-direction: column;
 	align-items: center;
 	margin: 15px;
-	align-items: center;
 }
 
 .row-item img {
@@ -144,4 +148,87 @@ hr {
 
 .coin_use .sub-title {
 	padding-top: 70px;
+}
+
+.coin_buy {
+	height: 690px;
+}
+
+.coin_buy .row {
+	height: 100%;
+}
+
+.coin_buy .sub-title {
+	padding-top: 61px;
+}
+
+.coin_buy .description {
+	padding-top: 35px;
+	padding-bottom: 55px;
+	width: 430px;
+}
+
+.first-item {
+	align-items: flex-start;
+}
+.first-item .sub-title {
+	min-width: 680px;
+}
+
+.first-item .row-item {
+	align-items: flex-start;
+	margin-right:0;
+}
+
+.first-item .row-item p {
+	max-width: 380px;
+}
+
+.first-item .row-item .divisible-img {
+	width: 45px;
+	height: 45px;
+}
+
+.steps {
+	list-style: none;
+	position:relative;
+}
+.steps::before {
+	content: " ";
+	width: 2px;
+	background-color: black;
+	left: 30%;
+	position:absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 22px;
+}
+
+.steps li {
+	margin-bottom: 20px;
+}
+.steps li div{
+	color: white;
+	width: 45px;
+	height: 45px;
+	line-height:45px;
+	font-size: 24px;
+	text-align: center;
+	background-color: black;
+	margin-left: -50px;
+	z-index: 100;
+	border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+.second-item {
+	float: right;
+	align-content: center;
+	justify-content: center;
+}
+
+.second-item img {
+	height: 368px;
+	width: 452px;
 }
