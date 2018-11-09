@@ -1,6 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden; 
+	width: 100%;
+    height: 100%;
 	font-family: 'Google Sans', sans-serif;
 }
 
@@ -17,7 +20,8 @@ footer {
 }
 
 .seperator {
-	width: 800px;
+	max-width: 60%;
+	padding-top:15px;
 	border-top: 1px solid #d8d8d8;
 	margin: 0 auto;
 }
@@ -53,7 +57,7 @@ footer {
 .header_bar {
 	min-height: 632px;
 	width: 100%;
-	background-image: url('../img/header-img.png');
+	background-image: url('../	img/header-img.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 40% 50%;
@@ -134,7 +138,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 15px;
+	margin-left: 15px;
 }
 
 .row-item img {
@@ -246,6 +250,7 @@ footer {
 .second-item img {
 	height: 368px;
 	width: 452px;
+	padding-bottom:15px;
 }
 
 .coin_redeem {
@@ -338,6 +343,21 @@ footer {
 	background-color: #a97b3f;
 }
 
+@media all and (max-width: 1024px) {
+	.second-item img {
+		width: 490px;
+	}
+	.row-item {
+		margin-left: 0;
+	}
+	.coin_buy .first-item .sub-title {
+		 min-width: 0;
+	}
+	.coin_redeem .second-item {
+		 padding-right: 25px;
+	}
+}
+
 @media all and (max-width: 991px) {
 	.row {
 		flex-wrap: wrap;
@@ -354,6 +374,12 @@ footer {
 	}
 	.sub-title {
 		font-size: 40px;
+	}
+	.second-item img {
+		width: 615px;
+	}
+	.coin_buy .first-item .sub-title {
+		min-width: 500px;
 	}
 	.header_bar p {
 		font-size: 24px;
@@ -380,6 +406,9 @@ footer {
 	.sub-title {
 		font-size: 24px;
 	}
+	.coin_buy .first-item .sub-title {
+		min-width: 360px;
+	}
 	.description {
 		font-size: 22px;
 	}
@@ -392,7 +421,7 @@ footer {
 	}
 	.second-item img {
 		height: 210px;
-		width: 305px;
+		width: 340px;
 	}
 	.coin_redeem .description {
 		width: 330px;
@@ -426,6 +455,7 @@ footer {
 		width: 280px;
 	}
 }
+
 @media all and (max-width: 400px) {
 	.header_title .header_img {
 		height: 50px;
@@ -440,6 +470,9 @@ footer {
 	.sub-title {
 		font-size: 22px;
 	}
+	.coin_buy .first-item .sub-title {
+		min-width: 0;
+	}
 	.description {
 		font-size: 20px;
 	}
@@ -451,7 +484,7 @@ footer {
 	}
 	.second-item img {
 		height: 180px;
-		width: 280px;
+		width: 240px;
 	}
 	.coin_redeem .description {
 		width: 250px;
@@ -479,6 +512,18 @@ footer {
 	}
 	.footer .wrapper img {
 		height: 50px;
+		width: 240px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.second-item img {
+		width: 300px;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.second-item img {
 		width: 240px;
 	}
 }
