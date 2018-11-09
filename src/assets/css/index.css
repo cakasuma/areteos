@@ -120,6 +120,9 @@ section {
 	text-align: center;
 	width: 100%;
 }
+.coin_works .row-item:nth-child(2) {
+	margin: 0 50px;
+}
 
 .sub-title {
 	padding-top: 60px;
@@ -143,6 +146,7 @@ section {
 }
 
 .row-item {
+	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -170,13 +174,16 @@ section {
 	width: 100%;
 }
 
+.coin_use .row-item:nth-child(2) {
+	margin: 0 50px;
+}
+
 .coin_use .sub-title {
 	padding-top: 60px;
 }
 
 .coin_buy .row {
 	height: 100%;
-	justify-content: flex-start;
 }
 
 .coin_buy .sub-title {
@@ -297,6 +304,10 @@ section {
 
 .techical_implementation .sub-title {
 	padding-top: 60px;
+}
+
+.techical_implementation .row-item:nth-child(2) {
+	margin: 0 50px;
 }
 
 .faq {
