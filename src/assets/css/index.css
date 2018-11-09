@@ -1,6 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden; 
+	width: 100%;
+    height: 100%;
 	font-family: 'Google Sans', sans-serif;
 }
 
@@ -10,21 +13,38 @@ footer {
 	margin: 0;
 	padding: 0;
 }
-
 .wrapper {
 	height: 100%;
 	margin: 0 auto;
-	width: 62.5%;
+	width: 80%;
+}
 
+.seperator {
+	max-width: 60%;
+	padding-top:15px;
+	border-top: 1px solid #d8d8d8;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 80px;
+}
+
+.sub-title {
+	font-size: 44px;
+	color: #a97b3f;
+	font-weight: 500;
 }
 
 .header_title {
 	height: 120px;
 	width: 100%;
 	background-color: #282828;
+	position: fixed;
+	z-index: 101;
 }
 
-.header_title .wrapper.top_title {
+.header_title .top-title.wrapper {
 	display: flex;
 	align-items: center;
 }
@@ -34,53 +54,476 @@ footer {
 	height: 88px;
 }
 
-
 .header_bar {
-	height: 632px;
+	min-height: 632px;
 	width: 100%;
-	background-image: url('../img/header-img.png');
+	background-image: url('../	img/header-img.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 18% 50%;
+	background-position: 40% 50%;
 	image-rendering: pixelated;
-	margin-top:-1px;
-	opacity: 0.95;
+	margin-top: -1px;
+	padding-top: 120px;
+	padding-bottom: 10px;
 }
 
 .header_bar .title {
 	font-weight: bold;
-	font-size: 80px;
-	color: #A97B3F;
+	color: #a97b3f;
 }
 
 .header_bar .sub-title {
 	color: white;
-	font-size: 44px;
-	width: 1200px;
+	max-width: 1200px;
 	padding-top: 27px;
 }
 
 .header_bar p {
 	padding-top: 32px;
-	width: 642.41px;
+	max-width: 642.41px;
 	color: white;
 	font-size: 28px;
 }
 
-.img_header {
-	height: 100%;
-	width:100%;
-}
-
-.header_bar .wrapper.header {
+.header_bar .header.wrapper {
 	padding-top: 93px;
 }
 
 .header_bar .header_button {
-	background-color: #A97B3F;
+	background-color: #a97b3f;
 	color: white;
 	padding: 22px 39px;
 	border-radius: 40px;
 	border: none;
 	font-size: 24px;
+}
+
+.header_button:hover {
+	cursor: pointer;
+	background-color: #815d2e;
+	/* Firefox */
+	-moz-transition: all 0.1s ease-in;
+	/* WebKit */
+	-webkit-transition: all 0.1s ease-in;
+	/* Opera */
+	-o-transition: all 0.1s ease-in;
+	/* Standard */
+	transition: all 0.1s ease-in;
+}
+
+.coin_works {
+	text-align: center;
+	min-height: 726px;
+	width: 100%;
+}
+
+.sub-title {
+	padding-top: 151px;
+}
+
+.description {
+	padding-top: 16px;
+	font-size: 24px;
+	padding-bottom: 68px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.row-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 15px;
+}
+
+.row-item img {
+	width: 79.69px;
+	height: 79.69px;
+}
+
+.row-title {
+	padding-top: 28px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.row-description {
+	font-size: 22px;
+	max-width: 380px;
+}
+
+.coin_use {
+	text-align: center;
+	min-height: 657px;
+	background-color: #d8d8d8;
+	width: 100%;
+}
+
+.coin_use .sub-title {
+	padding-top: 70px;
+}
+
+.coin_buy {
+	min-height: 690px;
+}
+
+.coin_buy .row {
+	height: 100%;
+	justify-content: flex-start;
+}
+
+.coin_buy .sub-title {
+	padding-top: 61px;
+}
+
+.coin_buy .description {
+	padding-top: 35px;
+	padding-bottom: 55px;
+	width: 430px;
+}
+
+.first-item {
+	align-items: flex-start;
+}
+.coin_buy .first-item .sub-title {
+	min-width: 680px;
+}
+
+.first-item .row-item {
+	align-items: flex-start;
+	margin-right: 0;
+}
+
+.first-item .row-item p {
+	max-width: 380px;
+}
+
+.first-item .row-item .divisible-img {
+	width: 45px;
+	height: 45px;
+}
+
+.steps {
+	list-style: none;
+	position: relative;
+}
+.steps::before {
+	content: " ";
+	width: 2px;
+	background-color: black;
+	left: 30%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 22px;
+}
+
+.steps li {
+	margin-bottom: 20px;
+}
+.steps li div {
+	color: white;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 24px;
+	text-align: center;
+	background-color: black;
+	margin-left: -50px;
+	z-index: 100;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+.second-item {
+	float: right;
+	align-content: center;
+	justify-content: center;
+}
+
+.second-item img {
+	height: 368px;
+	width: 452px;
+	padding-bottom:15px;
+}
+
+.coin_redeem {
+	min-height: 690px;
+}
+
+.coin_redeem .row {
+	height: 100%;
+}
+
+.coin_redeem .sub-title {
+	padding-top: 61px;
+}
+
+.coin_redeem .description {
+	padding-top: 35px;
+	padding-bottom: 55px;
+	width: 430px;
+}
+
+.coin_redeem .second-item {
+	padding-right: 228px;
+}
+
+.techical_implementation {
+	text-align: center;
+	min-height: 657px;
+	width: 100%;
+}
+
+.techical_implementation .sub-title {
+	padding-top: 70px;
+}
+
+.faq {
+	text-align: center;
+	width: 100%;
+	min-height: 1200px;
+}
+
+.faq .sub-title {
+	padding-top: 70px;
+}
+
+.faq-section {
+	text-align: left;
+}
+
+.question {
+	padding-top: 31px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.answer {
+	font-size: 22px;
+	padding-top: 16px;
+	padding-bottom: 31px;
+}
+
+.seperator-sub {
+	border-top: 1px solid #d8d8d8;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.faq .description {
+	padding-bottom: 50px;
+}
+
+.footer {
+	height: 120px;
+	width: 100%;
+	background-color: #282828;
+}
+
+.footer .wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.footer .wrapper img {
+	width: 320.23;
+	height: 88px;
+}
+
+.footer-bottom {
+	width: 100%;
+	height: 20px;
+	background-color: #a97b3f;
+}
+
+@media all and (max-width: 1024px) {
+	.second-item img {
+		width: 490px;
+	}
+	.row-item {
+		margin-left: 0;
+	}
+	.coin_buy .first-item .sub-title {
+		 min-width: 0;
+	}
+	.coin_redeem .second-item {
+		 padding-right: 25px;
+	}
+}
+
+@media all and (max-width: 991px) {
+	.row {
+		flex-wrap: wrap;
+	}
+
+	.coin_redeem .wrapper .row:first-of-type {
+		flex-direction: column-reverse;
+	}
+	.coin_redeem .second-item {
+		padding: 0;
+	}
+	.title {
+		font-size: 73px;
+	}
+	.sub-title {
+		font-size: 40px;
+	}
+	.second-item img {
+		width: 615px;
+	}
+	.coin_buy .first-item .sub-title {
+		min-width: 500px;
+	}
+	.header_bar p {
+		font-size: 24px;
+	}
+	.header_title .header_img {
+		width: 305px;
+		height: 71px;
+	}
+	.header_bar .header_button {
+		font-size: 24px;
+	}
+	.header_bar {
+		background-position: 30% 70%;
+	}
+}
+@media all and (max-width: 600px) {
+	.header_title .header_img {
+		height: 60px;
+		width: 280px;
+	}
+	.title {
+		font-size: 60px;
+	}
+	.sub-title {
+		font-size: 24px;
+	}
+	.coin_buy .first-item .sub-title {
+		min-width: 360px;
+	}
+	.description {
+		font-size: 22px;
+	}
+	.header_bar p {
+		font-size: 18px;
+		padding-bottom: 20px;
+	}
+	.header_bar .header_button {
+		font-size: 18px;
+	}
+	.second-item img {
+		height: 210px;
+		width: 340px;
+	}
+	.coin_redeem .description {
+		width: 330px;
+		font-size: 22px;
+	}
+	.coin_redeem .row .row {
+		flex-wrap: nowrap;
+	}
+	.coin_buy .description {
+		width: 330px;
+		font-size: 22px;
+	}
+	.first-item .row-item p {
+		max-width: 260px;
+		font-size: 18px;
+	}
+	.question {
+		font-size: 20px;
+	}
+	.answer {
+		font-size: 18px;
+	}
+	.steps::before {
+		bottom: 42px;
+	}
+	.steps li {
+		margin-bottom: 42px;
+	}
+	.footer .wrapper img {
+		height: 60px;
+		width: 280px;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.header_title .header_img {
+		height: 50px;
+		width: 240px;
+	}
+	.title {
+		font-size: 44px;
+	}
+	.top-title.wrapper {
+		margin: 0 30px;
+	}
+	.sub-title {
+		font-size: 22px;
+	}
+	.coin_buy .first-item .sub-title {
+		min-width: 0;
+	}
+	.description {
+		font-size: 20px;
+	}
+	.header_bar p {
+		font-size: 16px;
+	}
+	.header_bar .header_button {
+		font-size: 16px;
+	}
+	.second-item img {
+		height: 180px;
+		width: 240px;
+	}
+	.coin_redeem .description {
+		width: 250px;
+		font-size: 20px;
+	}
+	.coin_buy .description {
+		width: 250px;
+		font-size: 20px;
+	}
+	.first-item .row-item p {
+		max-width: 180px;
+		font-size: 16px;
+	}
+	.question {
+		font-size: 18px;
+	}
+	.answer {
+		font-size: 16px;
+	}
+	.steps::before {
+		bottom: 56px;
+	}
+	.steps li {
+		margin-bottom: 56px;
+	}
+	.footer .wrapper img {
+		height: 50px;
+		width: 240px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.second-item img {
+		width: 300px;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.second-item img {
+		width: 240px;
+	}
 }
