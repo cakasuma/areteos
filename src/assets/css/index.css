@@ -351,7 +351,7 @@ section {
 	.row {
 		flex-wrap: wrap;
 	}
-	.coin_buy .row-item:nth-child(2) {
+	.coin_use .row-item:nth-child(2) {
 		margin: 34px 0;
 	}
 	.coin_works .row-item:nth-child(2) {
@@ -377,6 +377,7 @@ section {
 	}
 	.second-item img {
 		width: 615px;
+		padding-top:34px;
 	}
 	.coin_buy .first-item .sub-title {
 		min-width: 500px;
