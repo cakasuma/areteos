@@ -1,3 +1,5 @@
+/* --------------      AMAM     --------------------- */
+/* --------------Initialize CSS Section-------------- */
 body {
 	margin: 0;
 	padding: 0;
@@ -6,7 +8,6 @@ body {
     height: 100%;
 	font-family: 'Google Sans', sans-serif;
 }
-
 header,
 section,
 footer {
@@ -14,220 +15,79 @@ footer {
 	padding: 0;
 }
 
+/* -------------- General Style --------------------- */
 section {
 	padding-bottom: 60px;
 }
-
 .wrapper {
 	height: 100%;
 	margin: 0 auto;
 	width: 80%;
 }
-
 .seperator {
 	max-width: 60%;
 	padding-top:15px;
 	border-top: 1px solid #d8d8d8;
 	margin: 0 auto;
 }
-
 .title {
 	font-size: 80px;
 }
-
 .sub-title {
 	font-size: 44px;
 	color: #a97b3f;
 	font-weight: 500;
-}
-
-.header_title {
-	height: 120px;
-	width: 100%;
-	background-color: #282828;
-	position: fixed;
-	z-index: 101;
-}
-
-.header_title .top-title.wrapper {
-	display: flex;
-	align-items: center;
-}
-
-.header_title .header_img {
-	width: 320.23;
-	height: 88px;
-}
-
-.header_bar {
-	min-height: 632px;
-	width: 100%;
-	background-image: url('../	img/header-img.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 40% 50%;
-	image-rendering: pixelated;
-	margin-top: -1px;
-	padding-top: 120px;
-	padding-bottom: 10px;
-}
-
-.header_bar .title {
-	font-weight: bold;
-	color: #a97b3f;
-}
-
-.header_bar .sub-title {
-	color: white;
-	max-width: 1200px;
-	padding-top: 27px;
-}
-
-.header_bar p {
-	padding-top: 32px;
-	max-width: 642.41px;
-	color: white;
-	font-size: 28px;
-}
-
-.header_bar .header.wrapper {
-	padding-top: 93px;
-}
-
-.header_bar .header_button {
-	background-color: #a97b3f;
-	color: white;
-	padding: 22px 39px;
-	border-radius: 40px;
-	border: none;
-	font-size: 24px;
-}
-
-.header_button:hover {
-	cursor: pointer;
-	background-color: #815d2e;
-	/* Firefox */
-	-moz-transition: all 0.1s ease-in;
-	/* WebKit */
-	-webkit-transition: all 0.1s ease-in;
-	/* Opera */
-	-o-transition: all 0.1s ease-in;
-	/* Standard */
-	transition: all 0.1s ease-in;
-}
-
-.coin_works {
-	text-align: center;
-	width: 100%;
-}
-.coin_works .row-item:nth-child(2) {
-	margin: 0 50px;
-}
-
-.sub-title {
 	padding-top: 60px;
 }
-
 .description {
 	padding-top: 16px;
 	font-size: 24px;
 	padding-bottom: 68px;
 }
-
 .row {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: stretch;
 }
-
 .row-item:nth-child(2) {
 	margin: 0 15px;
 }
-
 .row-item {
-	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
 .row-item img {
 	width: 79.69px;
 	height: 79.69px;
 }
-
 .row-title {
 	padding-top: 28px;
 	font-weight: bold;
 	font-size: 24px;
 }
-
 .row-description {
 	font-size: 22px;
 	max-width: 380px;
 }
-
-.coin_use {
-	text-align: center;
-	background-color: #d8d8d8;
-	width: 100%;
-}
-
-.coin_use .row-item:nth-child(2) {
-	margin: 0 50px;
-}
-
-.coin_use .sub-title {
-	padding-top: 60px;
-}
-
-.coin_buy .row {
-	height: 100%;
-}
-
-.coin_buy .sub-title {
-	padding-top: 60px;
-}
-
-.coin_buy .description {
-	padding-top: 35px;
-	padding-bottom: 55px;
-	width: 430px;
-}
-
-.coin_buy .step-1 {
-	margin-bottom: 72px;
-}
-
-.coin_buy .step-2 {
-	margin-bottom: 45px;
-}
-
 .first-item {
 	align-items: flex-start;
 }
-.coin_buy .first-item .sub-title {
-	min-width: 680px;
-}
-
 .first-item .row-item {
 	align-items: flex-start;
 	margin-right: 0;
 }
-
 .first-item .row-item p {
 	max-width: 380px;
 	font-size: 22px;
 	margin-block-start: 11px;
 	padding-left: 15px;
 }
-
 .first-item .row-item .divisible-img {
 	width: 45px;
 	height: 45px;
 }
-
 .steps {
 	list-style: none;
 	position: relative;
@@ -243,7 +103,6 @@ section {
 	top: 0;
 	bottom: 22px;
 }
-
 .steps li div {
 	color: white;
 	width: 45px;
@@ -264,109 +123,211 @@ section {
 	align-content: center;
 	justify-content: center;
 }
-
 .second-item img {
 	height: 368px;
 	width: 452px;
 	padding-bottom:15px;
 }
 
+
+/* ------------ header title section -------------- */
+.header_title {
+	height: 120px;
+	width: 100%;
+	background-color: #282828;
+	position: fixed;
+	z-index: 101;
+}
+.header_title .top-title.wrapper {
+	display: flex;
+	align-items: center;
+}
+.header_title .header_img {
+	width: 320.23;
+	height: 88px;
+}
+
+/* ----------- header bar section -------------- */
+.header_bar {
+	min-height: 632px;
+	width: 100%;
+	background-image: url('../	img/header-img.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 50%;
+	image-rendering: pixelated;
+	margin-top: -1px;
+	padding-top: 120px;
+	padding-bottom: 10px;
+}
+.header_bar .title {
+	font-weight: bold;
+	color: #a97b3f;
+}
+.header_bar .sub-title {
+	color: white;
+	max-width: 1200px;
+	padding-top: 27px;
+}
+.header_bar p {
+	padding-top: 32px;
+	max-width: 642.41px;
+	color: white;
+	font-size: 28px;
+}
+.header_bar .header.wrapper {
+	padding-top: 93px;
+}
+.header_bar .header_button {
+	background-color: #a97b3f;
+	color: white;
+	padding: 22px 39px;
+	border-radius: 40px;
+	border: none;
+	font-size: 24px;
+}
+.header_button:hover {
+	cursor: pointer;
+	background-color: #815d2e;
+	/* Firefox */
+	-moz-transition: all 0.1s ease-in;
+	/* WebKit */
+	-webkit-transition: all 0.1s ease-in;
+	/* Opera */
+	-o-transition: all 0.1s ease-in;
+	/* Standard */
+	transition: all 0.1s ease-in;
+}
+
+/* ------------- coin works section -------------- */
+.coin_works {
+	text-align: center;
+	width: 100%;
+}
+.coin_works .row-item:nth-child(2) {
+	margin: 0 50px;
+}
+
+/* ------------- coin use section -------------- */
+.coin_use {
+	text-align: center;
+	background-color: #d8d8d8;
+	width: 100%;
+}
+.coin_use .row-item:nth-child(2) {
+	margin: 0 50px;
+}
+.coin_use .sub-title {
+	padding-top: 60px;
+}
+
+/* ------------- coin buy section -------------- */
+.coin_buy .row {
+	height: 100%;
+}
+.coin_buy .sub-title {
+	padding-top: 60px;
+}
+.coin_buy .description {
+	padding-top: 35px;
+	padding-bottom: 55px;
+	width: 430px;
+}
+.coin_buy .step-1 {
+	margin-bottom: 72px;
+}
+.coin_buy .step-2 {
+	margin-bottom: 45px;
+}
+.coin_buy .first-item .sub-title {
+	min-width: 680px;
+}
+
+/* ------------- coin redeem section -------------- */
 .coin_redeem .row {
 	height: 100%;
 }
-
 .coin_redeem .sub-title {
 	padding-top: 61px;
 }
-
 .coin_redeem .description {
 	padding-top: 35px;
 	padding-bottom: 55px;
 	width: 430px;
 }
-
 .coin_redeem .second-item {
 	padding-right: 228px;
 }
-
 .coin_redeem .step-1 {
 	margin-bottom: 45px;
 }
-
 .coin_redeem .step-2 {
 	margin-bottom:42px;
 }
 
+/* ------------- coin buy section -------------- */
 .techical_implementation {
 	text-align: center;
 	width: 100%;
 }
-
 .techical_implementation .sub-title {
 	padding-top: 60px;
 }
-
 .techical_implementation .row-item:nth-child(2) {
 	margin: 0 50px;
 }
 
+/* ------------- faq section -------------- */
 .faq {
 	text-align: center;
 	width: 100%;
 }
-
 .faq .sub-title {
 	padding-top: 60px;
 }
-
 .faq-section {
 	text-align: left;
 }
-
 .question {
 	padding-top: 31px;
 	font-weight: bold;
 	font-size: 24px;
 }
-
 .answer {
 	font-size: 22px;
 	padding-top: 16px;
 	padding-bottom: 31px;
 }
-
 .seperator-sub {
 	border-top: 1px solid #d8d8d8;
 	margin: 0 auto;
 	width: 100%;
 }
-
 .faq .description {
 	padding-bottom: 60px;
 }
 
+/* ------------- footer section -------------- */
 .footer {
 	height: 120px;
 	width: 100%;
 	background-color: #282828;
 }
-
 .footer .wrapper {
 	display: flex;
 	align-items: center;
 }
-
 .footer .wrapper img {
 	width: 320.23;
 	height: 88px;
 }
-
 .footer-bottom {
 	width: 100%;
 	height: 20px;
 	background-color: #a97b3f;
 }
 
+/* ------------- responsive for medium laptop -------------- */
 @media all and (max-width: 1024px) {
 	.second-item img {
 		width: 465px;
@@ -385,13 +346,19 @@ section {
 	}
 }
 
+/* ------------- responsive for tablet -------------- */
 @media all and (max-width: 991px) {
 	.row {
 		flex-wrap: wrap;
 	}
-	.row-item:nth-child(2) {
-		margin-top: 34px;
-		margin-bottom: 34px;
+	.coin_use .row-item:nth-child(2) {
+		margin: 34px 0;
+	}
+	.coin_works .row-item:nth-child(2) {
+		margin: 34px 0;
+	}
+	.techical_implementation .row-item:nth-child(2) {
+		margin: 34px 0;
 	}
 	.coin_buy .row .row .row-item, .coin_redeem .row .row .row-item {
 		margin-top: 0;
@@ -410,6 +377,7 @@ section {
 	}
 	.second-item img {
 		width: 615px;
+		padding-top:34px;
 	}
 	.coin_buy .first-item .sub-title {
 		min-width: 500px;
@@ -428,6 +396,8 @@ section {
 		background-position: 30% 70%;
 	}
 }
+
+/* ------------- responsive for medium phone -------------- */
 @media all and (max-width: 600px) {
 	.header_title .header_img {
 		height: 60px;
@@ -498,6 +468,7 @@ section {
 	}
 }
 
+/* ------------- responsive for small phones -------------- */
 @media all and (max-width: 400px) {
 	.header_title .header_img {
 		height: 50px;
@@ -567,12 +538,12 @@ section {
 	}
 }
 
+/* ------------- responsive in lesser phone -------------- */
 @media all and (max-width: 375px) {
 	.second-item img {
 		width: 300px;
 	}
 }
-
 @media all and (max-width: 320px) {
 	.second-item img {
 		width: 240px;
