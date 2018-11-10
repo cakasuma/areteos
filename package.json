@@ -1,0 +1,39 @@
+{
+  "name": "areteos",
+  "version": "1.0.0",
+  "description": "areteos coin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakasuma/areteos.git"
+  },
+  "keywords": [
+    "areteos"
+  ],
+  "author": "Binary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakasuma/areteos/issues"
+  },
+  "homepage": "https://github.com/cakasuma/areteos#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.5.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
