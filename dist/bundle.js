@@ -115,117 +115,117 @@ eval("!function(e,t){ true?module.exports=t():undefined}(this,function(){return 
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./Icons/address-icon.svg\": \"./src/assets/Icons/address-icon.svg\",\n\t\"./Icons/cb-icon.svg\": \"./src/assets/Icons/cb-icon.svg\",\n\t\"./Icons/code-icon.svg\": \"./src/assets/Icons/code-icon.svg\",\n\t\"./Icons/divisibility-icon.svg\": \"./src/assets/Icons/divisibility-icon.svg\",\n\t\"./Icons/global-icon.svg\": \"./src/assets/Icons/global-icon.svg\",\n\t\"./Icons/investors-icon.svg\": \"./src/assets/Icons/investors-icon.svg\",\n\t\"./Icons/pegged-icon.png\": \"./src/assets/Icons/pegged-icon.png\",\n\t\"./Icons/pegged-icon.svg\": \"./src/assets/Icons/pegged-icon.svg\",\n\t\"./Icons/redeem-icon.svg\": \"./src/assets/Icons/redeem-icon.svg\",\n\t\"./Icons/traders-icon.svg\": \"./src/assets/Icons/traders-icon.svg\",\n\t\"./img/areteos-logo-full.png\": \"./src/assets/img/areteos-logo-full.png\",\n\t\"./img/buy-coin.svg\": \"./src/assets/img/buy-coin.svg\",\n\t\"./img/header-img.png\": \"./src/assets/img/header-img.png\",\n\t\"./img/redeem-coin.svg\": \"./src/assets/img/redeem-coin.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets sync recursive \\\\.(png|svg|jpg|gif)$\";\n\n//# sourceURL=webpack:///./src/assets_sync_\\.(png%7Csvg%7Cjpg%7Cgif)$?");
+eval("var map = {\n\t\"./icons/address-icon.svg\": \"./src/assets/icons/address-icon.svg\",\n\t\"./icons/cb-icon.svg\": \"./src/assets/icons/cb-icon.svg\",\n\t\"./icons/code-icon.svg\": \"./src/assets/icons/code-icon.svg\",\n\t\"./icons/divisibility-icon.svg\": \"./src/assets/icons/divisibility-icon.svg\",\n\t\"./icons/global-icon.svg\": \"./src/assets/icons/global-icon.svg\",\n\t\"./icons/investors-icon.svg\": \"./src/assets/icons/investors-icon.svg\",\n\t\"./icons/pegged-icon.png\": \"./src/assets/icons/pegged-icon.png\",\n\t\"./icons/pegged-icon.svg\": \"./src/assets/icons/pegged-icon.svg\",\n\t\"./icons/redeem-icon.svg\": \"./src/assets/icons/redeem-icon.svg\",\n\t\"./icons/traders-icon.svg\": \"./src/assets/icons/traders-icon.svg\",\n\t\"./img/areteos-logo-full.png\": \"./src/assets/img/areteos-logo-full.png\",\n\t\"./img/buy-coin.svg\": \"./src/assets/img/buy-coin.svg\",\n\t\"./img/header-img.png\": \"./src/assets/img/header-img.png\",\n\t\"./img/redeem-coin.svg\": \"./src/assets/img/redeem-coin.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets sync recursive \\\\.(png|svg|jpg|gif)$\";\n\n//# sourceURL=webpack:///./src/assets_sync_\\.(png%7Csvg%7Cjpg%7Cgif)$?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/address-icon.svg":
+/***/ "./src/assets/icons/address-icon.svg":
 /*!*******************************************!*\
-  !*** ./src/assets/Icons/address-icon.svg ***!
+  !*** ./src/assets/icons/address-icon.svg ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/address-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/address-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/address-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/address-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/cb-icon.svg":
+/***/ "./src/assets/icons/cb-icon.svg":
 /*!**************************************!*\
-  !*** ./src/assets/Icons/cb-icon.svg ***!
+  !*** ./src/assets/icons/cb-icon.svg ***!
   \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/cb-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/cb-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/cb-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/cb-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/code-icon.svg":
+/***/ "./src/assets/icons/code-icon.svg":
 /*!****************************************!*\
-  !*** ./src/assets/Icons/code-icon.svg ***!
+  !*** ./src/assets/icons/code-icon.svg ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/code-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/code-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/code-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/code-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/divisibility-icon.svg":
+/***/ "./src/assets/icons/divisibility-icon.svg":
 /*!************************************************!*\
-  !*** ./src/assets/Icons/divisibility-icon.svg ***!
+  !*** ./src/assets/icons/divisibility-icon.svg ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/divisibility-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/divisibility-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/divisibility-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/divisibility-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/global-icon.svg":
+/***/ "./src/assets/icons/global-icon.svg":
 /*!******************************************!*\
-  !*** ./src/assets/Icons/global-icon.svg ***!
+  !*** ./src/assets/icons/global-icon.svg ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/global-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/global-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/global-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/global-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/investors-icon.svg":
+/***/ "./src/assets/icons/investors-icon.svg":
 /*!*********************************************!*\
-  !*** ./src/assets/Icons/investors-icon.svg ***!
+  !*** ./src/assets/icons/investors-icon.svg ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/investors-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/investors-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/investors-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/investors-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/pegged-icon.png":
+/***/ "./src/assets/icons/pegged-icon.png":
 /*!******************************************!*\
-  !*** ./src/assets/Icons/pegged-icon.png ***!
+  !*** ./src/assets/icons/pegged-icon.png ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/pegged-icon.png\";\n\n//# sourceURL=webpack:///./src/assets/Icons/pegged-icon.png?");
+eval("module.exports = __webpack_require__.p + \"images/pegged-icon.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/pegged-icon.png?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/pegged-icon.svg":
+/***/ "./src/assets/icons/pegged-icon.svg":
 /*!******************************************!*\
-  !*** ./src/assets/Icons/pegged-icon.svg ***!
+  !*** ./src/assets/icons/pegged-icon.svg ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/pegged-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/pegged-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/pegged-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/pegged-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/redeem-icon.svg":
+/***/ "./src/assets/icons/redeem-icon.svg":
 /*!******************************************!*\
-  !*** ./src/assets/Icons/redeem-icon.svg ***!
+  !*** ./src/assets/icons/redeem-icon.svg ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/redeem-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/redeem-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/redeem-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/redeem-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/assets/Icons/traders-icon.svg":
+/***/ "./src/assets/icons/traders-icon.svg":
 /*!*******************************************!*\
-  !*** ./src/assets/Icons/traders-icon.svg ***!
+  !*** ./src/assets/icons/traders-icon.svg ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/traders-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/Icons/traders-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"images/traders-icon.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/traders-icon.svg?");
 
 /***/ }),
 

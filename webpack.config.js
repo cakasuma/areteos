@@ -1,6 +1,7 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 module.exports = {
 	entry: { main: './src/index.js' },
 	output: {
@@ -21,6 +22,9 @@ module.exports = {
 				use: [
 					{
 						loader: 'file-loader?name=images/[name].[ext]'
+					},
+					{
+						loader: 'image-webpack-loader'
 					}
 				]
 			}
@@ -34,8 +38,14 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			inject: false,
 			hash: true,
+			minify: {
+                collapseWhitespace: true,
+            },
 			template: './index.html',
 			filename: 'index.html'
+		}),
+		new webpack.LoaderOptionsPlugin({
+			minimize: true
 		})
 	]
 };
