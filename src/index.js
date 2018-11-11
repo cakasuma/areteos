@@ -18,13 +18,3 @@ window.addEventListener('scroll', function(e) {
 
 //AOS Animation init
 AOS.init();
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
-// var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementById("header_title").style.opacity = "1";
-//   } else {
-//     document.getElementById("header_title").style.opacity = "0";
-//   }
-//   prevScrollpos = currentScrollPos;
-// }
