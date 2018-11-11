@@ -10,9 +10,18 @@ body {
 }
 header,
 section,
-footer {
+footer,
+h1,
+h2,
+h3,
+h4,
+hr {
 	margin: 0;
 	padding: 0;
+}
+hr {
+	border: 0 solid #d8d8d8;
+	border-top-width: 1px;
 }
 
 /* -------------- General Style --------------------- */
@@ -27,7 +36,6 @@ section {
 .seperator {
 	max-width: 60%;
 	padding-top:15px;
-	border-top: 1px solid #d8d8d8;
 	margin: 0 auto;
 }
 .title {
@@ -301,7 +309,6 @@ section {
 	padding-bottom: 31px;
 }
 .seperator-sub {
-	border-top: 1px solid #d8d8d8;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -365,7 +372,7 @@ section {
 	.coin_buy .row .row .row-item, .coin_redeem .row .row .row-item {
 		margin-top: 0;
 	}
-	.coin_redeem .wrapper .row:first-of-type {
+	.coin_redeem .wrapper .row:first-child {
 		flex-direction: column-reverse;
 	}
 	.coin_redeem .second-item {
