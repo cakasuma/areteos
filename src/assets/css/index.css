@@ -465,16 +465,19 @@ p.description {
 	.top-title.wrapper {
 		margin: 0 30px;
 	}
-	.sub-title {
-		font-size: 22px;
-	}
 	.coin-buy .first-item .sub-title {
 		min-width: 0;
 	}
 	.description {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.header-bar p {
+		font-size: 16px;
+	}
+	.row-title {
+		font-size: 20px;
+	}
+	.row-description {
 		font-size: 16px;
 	}
 	.header-bar .header-button {
@@ -498,11 +501,9 @@ p.description {
 	}
 	.coin-redeem .description {
 		width: 250px;
-		font-size: 20px;
 	}
 	.coin-buy .description {
 		width: 250px;
-		font-size: 20px;
 	}
 	.first-item .row-item p {
 		max-width: 180px;
