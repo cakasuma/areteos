@@ -1,5 +1,3 @@
-/* --------------      AMAM     --------------------- */
-/* --------------Initialize CSS Section-------------- */
 body {
 	margin: 0;
 	padding: 0;
@@ -11,20 +9,18 @@ body {
 header,
 section,
 footer,
+main,
 h1,
 h2,
 h3,
 h4,hr {
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
 }
 hr {
 	border: 0 solid #d8d8d8;
 	border-top-width: 1px;
 }
-
-/* -------------- General Style --------------------- */
 section {
 	padding-bottom: 60px;
 }
@@ -140,8 +136,6 @@ p.description {
 	padding-bottom:15px;
 }
 
-
-/* ------------ header title section -------------- */
 .header-title {
 	height: 120px;
 	width: 100%;
@@ -158,7 +152,6 @@ p.description {
 	height: 88px;
 }
 
-/* ----------- header bar section -------------- */
 .header-bar {
 	min-height: 632px;
 	width: 100%;
@@ -209,8 +202,6 @@ p.description {
 	/* Standard */
 	transition: all 0.1s ease-in;
 }
-
-/* ------------- coin works section -------------- */
 .coin-works {
 	text-align: center;
 	width: 100%;
@@ -218,8 +209,6 @@ p.description {
 .coin-works .row-item:nth-child(2) {
 	margin: 0 50px;
 }
-
-/* ------------- coin use section -------------- */
 .coin-use {
 	text-align: center;
 	background-color: #d8d8d8;
@@ -231,8 +220,6 @@ p.description {
 .coin-use .sub-title {
 	padding-top: 60px;
 }
-
-/* ------------- coin buy section -------------- */
 .coin-buy .row {
 	height: 100%;
 }
@@ -253,8 +240,6 @@ p.description {
 .coin-buy .first-item .sub-title {
 	min-width: 680px;
 }
-
-/* ------------- coin redeem section -------------- */
 .coin-redeem .row {
 	height: 100%;
 }
@@ -275,8 +260,6 @@ p.description {
 .coin-redeem .step-2 {
 	margin-bottom:42px;
 }
-
-/* ------------- coin buy section -------------- */
 .technical-implementation {
 	text-align: center;
 	width: 100%;
@@ -287,8 +270,6 @@ p.description {
 .technical-implementation .row-item:nth-child(2) {
 	margin: 0 50px;
 }
-
-/* ------------- faq section -------------- */
 .faq {
 	text-align: center;
 	width: 100%;
@@ -316,8 +297,6 @@ p.description {
 .faq .description {
 	padding-bottom: 60px;
 }
-
-/* ------------- footer section -------------- */
 .footer {
 	height: 120px;
 	width: 100%;
@@ -337,7 +316,6 @@ p.description {
 	background-color: #a97b3f;
 }
 
-/* ------------- responsive for medium laptop -------------- */
 @media all and (max-width: 1024px) {
 	.second-item img {
 		width: 465px;
@@ -356,7 +334,6 @@ p.description {
 	}
 }
 
-/* ------------- responsive for tablet -------------- */
 @media all and (max-width: 991px) {
 	.row {
 		flex-wrap: wrap;
@@ -407,7 +384,6 @@ p.description {
 	}
 }
 
-/* ------------- responsive for medium phone -------------- */
 @media all and (max-width: 600px) {
 	.header-title .header_img {
 		height: 60px;
@@ -478,7 +454,6 @@ p.description {
 	}
 }
 
-/* ------------- responsive for small phones -------------- */
 @media all and (max-width: 400px) {
 	.header-title .header_img {
 		height: 50px;
@@ -548,7 +523,6 @@ p.description {
 	}
 }
 
-/* ------------- responsive in lesser phone -------------- */
 @media all and (max-width: 375px) {
 	.second-item img {
 		width: 300px;
