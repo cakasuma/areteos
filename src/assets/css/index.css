@@ -1,3 +1,7 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -19,10 +23,10 @@ h4,hr {
 }
 hr {
 	border: 0 solid #d8d8d8;
-	border-top-width: 1px;
+	border-top-width: .1rem;
 }
 section {
-	padding-bottom: 60px;
+	padding-bottom: 6rem;
 }
 .wrapper {
 	height: 100%;
@@ -31,22 +35,22 @@ section {
 }
 .seperator {
 	max-width: 60%;
-	padding-top:15px;
+	padding-top:1.5rem;
 	margin: 0 auto;
 }
 .title {
-	font-size: 80px;
+	font-size: 8rem;
 }
 .sub-title {
-	font-size: 44px;
+	font-size: 4.4rem;
 	color: #a97b3f;
 	font-weight: 500;
-	padding-top: 60px;
+	padding-top: 6rem;
 }
 .description {
-	padding-top: 16px;
-	font-size: 24px;
-	padding-bottom: 68px;
+	padding-top: 1.6rem;
+	font-size: 2.4rem;
+	padding-bottom: 6.8rem;
 }
 p.description {
 	margin: 0;
@@ -58,7 +62,7 @@ p.description {
 	align-items: stretch;
 }
 .row-item:nth-child(2) {
-	margin: 0 15px;
+	margin: 0 1.5rem;
 }
 .row-item {
 	display: flex;
@@ -66,17 +70,17 @@ p.description {
 	align-items: center;
 }
 .row-item img {
-	width: 79.69px;
-	height: 79.69px;
+	width: 8rem;
+	height: 8rem;
 }
 .row-title {
-	padding-top: 28px;
+	padding-top: 2.8rem;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 2.4rem;
 }
 .row-description {
-	font-size: 22px;
-	max-width: 380px;
+	font-size: 2.2rem;
+	max-width: 38rem;
 }
 .first-item {
 	align-items: flex-start;
@@ -86,39 +90,39 @@ p.description {
 	margin-right: 0;
 }
 .first-item .row-item p {
-	max-width: 380px;
-	font-size: 22px;
-	margin-block-start: 11px;
-	padding-left: 15px;
+	max-width: 38rem;
+	font-size: 2.2rem;
+	margin-block-start: 1.1rem;
+	padding-left: 1.5rem;
 }
 .first-item .row-item .divisible-img {
-	width: 45px;
-	height: 45px;
+	width: 4.5rem;
+	height: 4.5rem;
 }
 .steps {
 	list-style: none;
 	position: relative;
-	left: 15px;
+	left: 1.5rem;
 }
 .steps::before {
 	content: " ";
-	width: 2px;
+	width: .2rem;
 	background-color: black;
 	left: 30%;
 	position: absolute;
 	z-index: -1;
 	top: 0;
-	bottom: 22px;
+	bottom: 2.2rem;
 }
 .steps li {
 	color: white;
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	font-size: 24px;
+	width: 4.5rem;
+	height: 4.5rem;
+	line-height: 4.5rem;
+	font-size: 2.4rem;
 	text-align: center;
 	background-color: black;
-	margin-left: -50px;
+	margin-left: -5rem;
 	z-index: 100;
 	border-top-right-radius: 50%;
 	border-top-left-radius: 50%;
@@ -131,13 +135,13 @@ p.description {
 	justify-content: center;
 }
 .second-item img {
-	height: 368px;
-	width: 452px;
-	padding-bottom:15px;
+	height: 37rem;
+	width: 45rem;
+	padding-bottom:1.5rem;
 }
 
 .header-title {
-	height: 120px;
+	height: 12rem;
 	width: 100%;
 	background-color: #282828;
 	position: fixed;
@@ -148,12 +152,12 @@ p.description {
 	align-items: center;
 }
 .header-title .header_img {
-	width: 320.23;
-	height: 88px;
+	width: 39.2rem;
+	height: 8.8rem;
 }
 
 .header-bar {
-	min-height: 632px;
+	min-height: 63rem;
 	width: 100%;
 	background-image: url('../img/header-img.png');
 	background-repeat: no-repeat;
@@ -161,8 +165,8 @@ p.description {
 	background-position: 40% 50%;
 	image-rendering: pixelated;
 	margin-top: -1px;
-	padding-top: 120px;
-	padding-bottom: 10px;
+	padding-top: 12rem;
+	padding-bottom: 1rem;
 }
 .header-bar .title {
 	font-weight: bold;
@@ -170,25 +174,25 @@ p.description {
 }
 .header-bar .sub-title {
 	color: white;
-	max-width: 1200px;
-	padding-top: 27px;
+	max-width: 120rem;
+	padding-top: 2.7rem;
 }
 .header-bar p {
-	padding-top: 32px;
-	max-width: 642.41px;
+	padding-top: 3.2rem;
+	max-width: 64.3rem;
 	color: white;
-	font-size: 28px;
+	font-size: 2.8rem;
 }
 .header-bar .header.wrapper {
-	padding-top: 93px;
+	padding-top: 9.3rem;
 }
 .header-bar .header-button {
 	background-color: #a97b3f;
 	color: white;
-	padding: 22px 39px;
-	border-radius: 40px;
+	padding: 2.2rem 4rem;
+	border-radius: 4rem;
 	border: none;
-	font-size: 24px;
+	font-size: 2.4rem;
 }
 .header-button:hover {
 	cursor: pointer;
@@ -207,7 +211,7 @@ p.description {
 	width: 100%;
 }
 .coin-works .row-item:nth-child(2) {
-	margin: 0 50px;
+	margin: 0 5rem;
 }
 .coin-use {
 	text-align: center;
@@ -215,90 +219,90 @@ p.description {
 	width: 100%;
 }
 .coin-use .row-item:nth-child(2) {
-	margin: 0 50px;
+	margin: 0 5rem;
 }
 .coin-use .sub-title {
-	padding-top: 60px;
+	padding-top: 6rem;
 }
 .coin-buy .row {
 	height: 100%;
+	justify-content: space-between;
 }
 .coin-buy .sub-title {
-	padding-top: 60px;
+	padding-top: 6rem;
 }
 .coin-buy .description {
-	padding-top: 35px;
-	padding-bottom: 55px;
-	width: 430px;
+	padding-top: 3.5rem;
+	padding-bottom: 5.5rem;
+	width: 43rem;
 }
 .coin-buy .step-1 {
-	margin-bottom: 72px;
+	margin-bottom: 7.2rem;
 }
 .coin-buy .step-2 {
-	margin-bottom: 45px;
+	margin-bottom: 4.5rem;
 }
 .coin-buy .first-item .sub-title {
-	min-width: 680px;
+	max-width: 68rem;
 }
 .coin-redeem .row {
 	height: 100%;
 }
 .coin-redeem .sub-title {
-	padding-top: 61px;
+	padding-top: 6.1rem;
 }
 .coin-redeem .description {
-	padding-top: 35px;
-	padding-bottom: 55px;
-	width: 430px;
+	padding-top: 3.5rem;
+	padding-bottom: 5.5rem;
 }
 .coin-redeem .second-item {
-	padding-right: 228px;
+	padding-right: 23rem;
 }
 .coin-redeem .step-1 {
-	margin-bottom: 45px;
+	margin-bottom: 4.5rem;
 }
 .coin-redeem .step-2 {
-	margin-bottom:42px;
+	margin-bottom:4.2rem;
 }
 .technical-implementation {
 	text-align: center;
 	width: 100%;
 }
 .technical-implementation .sub-title {
-	padding-top: 60px;
+	padding-top: 6rem;
 }
 .technical-implementation .row-item:nth-child(2) {
-	margin: 0 50px;
+	margin: 0 5rem;
 }
 .faq {
 	text-align: center;
 	width: 100%;
 }
 .faq .sub-title {
-	padding-top: 60px;
+	padding-top: 6rem;
 }
 .faq-section {
 	text-align: left;
 }
 .question {
-	padding-top: 31px;
+	padding-top: 3rem;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 2.4rem;
 }
 .answer {
-	font-size: 22px;
-	padding-top: 16px;
-	padding-bottom: 31px;
+	font-size: 2.2rem;
+	padding-top: 1.6rem;
+	padding-bottom: 3.1rem;
 }
 .seperator-sub {
 	margin: 0 auto;
 	width: 100%;
 }
 .faq .description {
-	padding-bottom: 60px;
+	padding-bottom: 6rem;
 }
 .footer {
-	height: 120px;
+	height: 12rem;
 	width: 100%;
 	background-color: #282828;
 }
@@ -307,18 +311,41 @@ p.description {
 	align-items: center;
 }
 .footer .wrapper img {
-	width: 320.23;
-	height: 88px;
+	width: 39.2rem;
+	height: 8.8rem;
 }
 .footer-bottom {
 	width: 100%;
-	height: 20px;
+	height: 2rem;
 	background-color: #a97b3f;
 }
 
+@media all and (min-width: 1500px) {
+	html {
+		font-size: 75.5%;
+	}
+	.wrapper {
+		width: 60%;
+	}
+	.coin-buy .row, .coin-redeem .row {
+		justify-content: space-around;
+	}
+	.coin-redeem .second-item {
+		padding: 0;
+	}
+	.coin-redeem .sub-title {
+		max-width: 58rem;
+	}
+	.row {
+		justify-content: space-between;
+	}
+}
 @media all and (max-width: 1024px) {
+	html {
+		font-size: 58%;
+	}
 	.second-item img {
-		width: 465px;
+		width: 46.5rem;
 	}
 	.row-item {
 		margin-left: 0;
@@ -327,25 +354,36 @@ p.description {
 		 min-width: 0;
 	}
 	.coin-redeem .second-item {
-		 padding-right: 25px;
+		 padding-right: 2.5rem;
 	}
 	.header-bar {
+		min-height: 67.5rem;
 		background-position: 16% 16%;
+	}
+	.steps::before {
+		left: 38%;
 	}
 }
 
 @media all and (max-width: 991px) {
+	html {
+		font-size: 54%;
+	}
 	.row {
 		flex-wrap: wrap;
 	}
 	.coin-use .row-item:nth-child(2) {
-		margin: 34px 0;
+		margin: 3.4rem 0;
 	}
 	.coin-works .row-item:nth-child(2) {
-		margin: 34px 0;
+		margin: 3.4rem 0;
 	}
 	.technical-implementation .row-item:nth-child(2) {
-		margin: 34px 0;
+		margin: 3.4rem 0;
+	}
+	.coin-buy .description, .coin-redeem .description {
+		width:unset;
+		text-align: center;
 	}
 	.coin-buy .row .row .row-item, .coin-redeem .row .row .row-item {
 		margin-top: 0;
@@ -356,181 +394,126 @@ p.description {
 	.coin-redeem .second-item {
 		padding: 0;
 	}
-	.title {
-		font-size: 73px;
+	.first-item {
+		align-items: center;
 	}
-	.sub-title {
-		font-size: 40px;
+	.first-item .sub-title {
+		text-align: center;
 	}
 	.second-item img {
-		width: 615px;
-		padding-top:34px;
+		width: 66.5rem;
+		padding-top:3.4rem;
 	}
 	.coin-buy .first-item .sub-title {
-		min-width: 500px;
-	}
-	.header-bar p {
-		font-size: 24px;
+		min-width: 50rem;
 	}
 	.header-title .header_img {
-		width: 305px;
-		height: 71px;
-	}
-	.header-bar .header-button {
-		font-size: 24px;
+		width: 30.5rem;
+		height: 7.1rem;
 	}
 	.header-bar {
 		background-position: 30% 70%;
 	}
+	.steps::before {
+		left: 41%;
+	}
+	.footer .wrapper img {
+		width: 30.5rem;
+    	height: 7.1rem;
+	}
 }
 
 @media all and (max-width: 600px) {
+	html {
+		font-size: 47%;
+	}
+	.header-bar {
+		min-height: 88.5rem;
+	}
 	.header-title .header_img {
-		height: 60px;
-		width: 280px;
-	}
-	.title {
-		font-size: 60px;
-	}
-	.sub-title {
-		font-size: 24px;
+		height: 8rem;
+    	width: 34rem;
 	}
 	.coin-buy .first-item .sub-title {
-		min-width: 360px;
+		min-width: 36rem;
 	}
 	.coin-buy .step-1 {
-		margin-bottom: 44px;
+		margin-bottom: 7.4rem;
 	}
 	.coin-buy .step-2 {
-		margin-bottom: 38px;
+		margin-bottom: 4.8rem;
 	}
 	.coin-redeem .step-1 {
-		margin-bottom: 27px;
+		margin-bottom: 4.7rem;
 	}
 	.coin-redeem .step-2 {
-		margin-bottom: 30px;
-	}
-	.description {
-		font-size: 22px;
+		margin-bottom: 4rem;
 	}
 	.header-bar p {
-		font-size: 18px;
-		padding-bottom: 20px;
-	}
-	.header-bar .header-button {
-		font-size: 18px;
+		padding-bottom: 2rem;
 	}
 	.second-item img {
-		height: 210px;
-		width: 340px;
-	}
-	.coin-redeem .description {
-		width: 330px;
-		font-size: 22px;
+		height: 21rem;
+		width: 41rem;
 	}
 	.coin-redeem .row .row {
 		flex-wrap: nowrap;
 	}
-	.coin-buy .description {
-		width: 330px;
-		font-size: 22px;
-	}
-	.first-item .row-item p {
-		max-width: 260px;
-		font-size: 18px;
-	}
-	.question {
-		font-size: 20px;
-	}
-	.answer {
-		font-size: 18px;
+	.coin-buy .row .row {
+		flex-wrap: nowrap;
 	}
 	.steps::before {
-		bottom: 42px;
+		bottom: 4.2rem;
+		left: 46%;
 	}
 	.footer .wrapper img {
-		height: 60px;
-		width: 280px;
+		height: 8rem;
+    	width: 34rem;
 	}
 }
 
-@media all and (max-width: 400px) {
-	.header-title .header_img {
-		height: 50px;
-		width: 240px;
-	}
-	.title {
-		font-size: 44px;
+@media all and (max-width: 420px) {
+	html {
+		font-size: 38%;
 	}
 	.top-title.wrapper {
-		margin: 0 30px;
+		margin: 0 3rem;
 	}
 	.coin-buy .first-item .sub-title {
 		min-width: 0;
 	}
-	.description {
-		font-size: 18px;
-	}
-	.header-bar p {
-		font-size: 16px;
-	}
-	.row-title {
-		font-size: 20px;
-	}
-	.row-description {
-		font-size: 16px;
-	}
-	.header-bar .header-button {
-		font-size: 16px;
-	}
 	.second-item img {
-		height: 180px;
-		width: 240px;
+		height: 18rem;
+		width: 24rem;
 	}
 	.coin-buy .step-1 {
-		margin-bottom: 57px;
+		margin-bottom: 7.7rem;
 	}
 	.coin-buy .step-2 {
-		margin-bottom: 46px;
+		margin-bottom: 4.6rem;
 	}
 	.coin-redeem .step-1 {
-		margin-bottom: 37px;
+		margin-bottom: 4.7rem;
 	}
 	.coin-redeem .step-2 {
-		margin-bottom: 40px;
-	}
-	.coin-redeem .description {
-		width: 250px;
-	}
-	.coin-buy .description {
-		width: 250px;
-	}
-	.first-item .row-item p {
-		max-width: 180px;
-		font-size: 16px;
-	}
-	.question {
-		font-size: 18px;
-	}
-	.answer {
-		font-size: 16px;
+		margin-bottom: 4rem;
 	}
 	.steps::before {
-		bottom: 35px;
-	}
-	.footer .wrapper img {
-		height: 50px;
-		width: 240px;
+		bottom: 3.5rem;
+		left: 58%;
 	}
 }
 
 @media all and (max-width: 375px) {
 	.second-item img {
-		width: 300px;
+		width: 45rem;
+	}
+	.header-bar {
+		min-height: 91.5rem;
 	}
 }
 @media all and (max-width: 320px) {
 	.second-item img {
-		width: 240px;
+		width: 38rem;
 	}
 }
