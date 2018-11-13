@@ -159,7 +159,7 @@ p.description {
 .header-bar {
 	min-height: 63rem;
 	width: 100%;
-	background-image: url('../img/header-img.png');
+	background-image: url('../img/header-img.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 40% 50%;
@@ -197,13 +197,9 @@ p.description {
 .header-button:hover {
 	cursor: pointer;
 	background-color: #815d2e;
-	/* Firefox */
 	-moz-transition: all 0.1s ease-in;
-	/* WebKit */
 	-webkit-transition: all 0.1s ease-in;
-	/* Opera */
 	-o-transition: all 0.1s ease-in;
-	/* Standard */
 	transition: all 0.1s ease-in;
 }
 .coin-works {
@@ -499,6 +495,12 @@ p.description {
 		bottom: 3.5rem;
 		left: 58%;
 	}
+	.header-bar {
+		min-height: 69rem;
+	}
+	.header-bar .header.wrapper {
+		padding-top: 6.3rem;
+	}
 }
 
 @media all and (max-width: 375px) {
@@ -506,11 +508,22 @@ p.description {
 		width: 45rem;
 	}
 	.header-bar {
-		min-height: 91.5rem;
+		min-height: 77rem;
+	}
+}
+@media all and (max-width: 360px) {
+	.header-bar {
+		min-height: 81rem;
 	}
 }
 @media all and (max-width: 320px) {
 	.second-item img {
 		width: 38rem;
+	}
+	.header-bar {
+		min-height: 84rem;
+	}
+	.header-bar .header.wrapper {
+		padding-top: 5.3rem;
 	}
 }
