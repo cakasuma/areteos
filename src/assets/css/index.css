@@ -423,7 +423,7 @@ p.description {
 	.header-bar {
 		min-height: 88.5rem;
 	}
-	.header-title .header_img {
+	.header-title .header_img, .footer .wrapper img {
 		height: 8rem;
     	width: 34rem;
 	}
@@ -458,10 +458,6 @@ p.description {
 	.steps::before {
 		bottom: 4.2rem;
 		left: 46%;
-	}
-	.footer .wrapper img {
-		height: 8rem;
-    	width: 34rem;
 	}
 }
 
@@ -527,7 +523,7 @@ p.description {
 		padding-top: 5.3rem;
 	}
 	.header-bar {
-		background-image: url('../img/header-img-w826.png');
+		background-image: url('../img/header-img-W826.png');
 		background-position: 20% 20%;
 	  }
 }
