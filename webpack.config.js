@@ -40,6 +40,9 @@ module.exports = {
 							},
 							pngquant: {
 								quality: 80
+							},
+							svgo: {
+								quality: 80
 							}
 						}
 					}
