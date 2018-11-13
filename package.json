@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode development",
-    "start": "webpack-dev-server"
+    "start": "webpack --watch --mode development --info-verbosity verbose"
   },
   "repository": {
     "type": "git",
@@ -23,15 +23,16 @@
   "homepage": "https://github.com/cakasuma/areteos#readme",
   "devDependencies": {
     "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
     "babel-loader": "^8.0.4",
     "babel-minify-webpack-plugin": "^0.3.1",
-    "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^4.5.0",
     "mini-css-extract-plugin": "^0.4.4",
+    "n": "^2.1.12",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
