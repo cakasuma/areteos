@@ -37,7 +37,6 @@ module.exports = {
                             gifsicle: {
                               enabled: false,
                             },
-
                           }
 					}
 				]
