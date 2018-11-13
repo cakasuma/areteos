@@ -159,7 +159,7 @@ p.description {
 .header-bar {
 	min-height: 63rem;
 	width: 100%;
-	background-image: url('../img/header-img.webp');
+	background-image: url('../img/header-img.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 40% 50%;
@@ -526,4 +526,8 @@ p.description {
 	.header-bar .header.wrapper {
 		padding-top: 5.3rem;
 	}
+	.header-bar {
+		background-image: url('../img/header-img-w826.png');
+		background-position: 20% 20%;
+	  }
 }
