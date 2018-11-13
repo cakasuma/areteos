@@ -320,18 +320,15 @@ p.description {
 	background-color: #a97b3f;
 }
 
-@media all and (min-width: 1500px) {
+@media all and (min-width: 1700px) {
 	html {
 		font-size: 75.5%;
 	}
 	.wrapper {
 		width: 60%;
 	}
-	.coin-buy .row, .coin-redeem .row {
-		justify-content: space-around;
-	}
 	.coin-redeem .second-item {
-		padding: 0;
+		padding: 13rem;
 	}
 	.coin-redeem .sub-title {
 		max-width: 58rem;
