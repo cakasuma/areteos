@@ -1,0 +1,41 @@
+{
+  "name": "areteos",
+  "version": "1.0.0",
+  "description": "Areteos Coin is a stablecoin that’s backed by the Global Group, giving you preferential access to a world of investment opportunities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakasuma/areteos.git"
+  },
+  "keywords": [
+    "areteos"
+  ],
+  "author": "mustofa@binary.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakasuma/areteos/issues"
+  },
+  "homepage": "https://github.com/cakasuma/areteos#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "babel-loader": "^8.0.4",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.5.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
