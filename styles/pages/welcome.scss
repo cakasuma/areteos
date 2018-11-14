@@ -1,0 +1,250 @@
+@import '../components/button';
+@import '../layouts/header';
+@import '../layouts/footer.scss';
+
+.header-bar {
+	min-height: 63rem;
+	width: 100%;
+	background-image: $URL_HEADER_IMG;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 50%;
+	margin-top: -1px;
+	padding-top: 12rem;
+	padding-bottom: 1rem;
+	@include respond(tab-land) {
+		min-height: 67.5rem;
+		background-position: 16% 16%;
+	}
+	@include respond(tab-port) {
+		background-position: 30% 70%;
+	}
+	@include respond(phone-xl) {
+		min-height: 88.5rem;
+    }
+    @include respond(phone-lg) {
+        min-height: 69rem;
+    }
+    @include respond(phone-m) {
+        min-height: 77rem;
+    }
+    @include respond(phone-s) {
+        min-height: 81rem;
+    }
+    @include respond(phone-xs) {
+        min-height: 84rem;
+		background-image: $URL_HEADER_IMG_W826;
+		background-position: 20% 20%;
+    }
+	.title {
+		font-weight: bold;
+		color: $COLOR_COPPER_APPROX;
+	}
+	h2 {
+		color: $WHITE;
+		max-width: 120rem;
+		padding-top: 2.7rem;
+	}
+	p {
+		padding-top: 3.2rem;
+		max-width: 64.3rem;
+		color: $WHITE;
+		font-size: 2.8rem;
+		@include respond(phone-xl) {
+			padding-bottom: 2rem;
+		}
+	}
+	.wrapper {
+        padding-top: 9.3rem;
+        @include respond(phone-lg) {
+            padding-top: 6.3rem;
+        }
+        @include respond(phone-xs) {
+            padding-top: 5.3rem;
+        }
+	}
+}
+.coin-works {
+	text-align: center;
+	width: 100%;
+	.row-item:nth-child(2) {
+		margin: 0 5rem;
+		@include respond(tab-port) {
+			margin: 3.4rem 0;
+		}
+	}
+}
+.coin-use {
+	text-align: center;
+	background-color: $COLOR_IRON_APPROX;
+	width: 100%;
+	h3 {
+		padding-top: 6rem;
+	}
+	.row-item:nth-child(2) {
+		margin: 0 5rem;
+		@include respond(tab-port) {
+			margin: 3.4rem 0;
+		}
+	}
+}
+.technical-implementation {
+	text-align: center;
+	width: 100%;
+	h3 {
+		padding-top: 6rem;
+	}
+	.row-item:nth-child(2) {
+		margin: 0 5rem;
+		@include respond(tab-port) {
+			margin: 3.4rem 0;
+		}
+	}
+}
+.coin-buy {
+	h3 {
+		padding-top: 6rem;
+	}
+	.row {
+		height: 100%;
+		justify-content: space-between;
+		.row {
+			@include respond(phone-xl) {
+				flex-wrap: nowrap;
+			}
+			.row-item {
+				@include respond(tab-port) {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	.description {
+		padding-top: 3.5rem;
+		padding-bottom: 5.5rem;
+		width: 43rem;
+		@include respond(tab-port) {
+			width: unset;
+			text-align: center;
+		}
+	}
+	.step-1 {
+		margin-bottom: 7.2rem;
+		@include respond(phone-xl) {
+			margin-bottom: 7.4rem;
+        }
+        @include respond(phone-lg) {
+            margin-bottom: 7.7rem;
+        }
+	}
+	.step-2 {
+		margin-bottom: 4.5rem;
+		@include respond(phone-xl) {
+			margin-bottom: 4.8rem;
+        }
+        @include respond(phone-lg) {
+            margin-bottom: 4.6rem;
+        }
+	}
+	.first-item h3 {
+		max-width: 68rem;
+		@include respond(tab-land) {
+			min-width: 0;
+		}
+		@include respond(tab-port) {
+			min-width: 50rem;
+		}
+		@include respond(phone-xl) {
+			min-width: 36rem;
+        }
+        @include respond(phone-lg) {
+            min-width: 0;
+        }
+	}
+}
+.coin-redeem {
+	h3 {
+		padding-top: 6rem;
+		@include respond(big-desktop) {
+			max-width: 58rem;
+		}
+	}
+	.wrapper .row:first-child {
+		@include respond(tab-port) {
+			flex-direction: column-reverse;
+		}
+	}
+	.step-1 {
+		margin-bottom: 7.2rem;
+		@include respond(phone-xl) {
+			margin-bottom: 4.7rem;
+        }
+        @include respond(phone-lg) {
+            margin-bottom: 4.7rem;
+        }
+	}
+	.step-2 {
+		margin-bottom: 4.2rem;
+		@include respond(phone-xl) {
+			margin-bottom: 4rem;
+        }
+        @include respond(phone-lg) {
+            margin-bottom: 4rem;
+        }
+	}
+	.row {
+		height: 100%;
+		.row {
+			@include respond(phone-xl) {
+				flex-wrap: nowrap;
+			}
+			.row-item {
+				@include respond(tab-port) {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	.description {
+		padding-top: 3.5rem;
+		padding-bottom: 5.5rem;
+		@include respond(tab-port) {
+			width: unset;
+			text-align: center;
+		}
+	}
+	.second-item {
+		padding-right: 23rem;
+		@include respond(big-desktop) {
+			padding: 13rem;
+		}
+		@include respond(tab-land) {
+			padding-right: 2.5rem;
+		}
+		@include respond(tab-port) {
+			padding: 0;
+		}
+	}
+}
+.faq {
+	text-align: center;
+	width: 100%;
+	h3 {
+		padding-top: 6rem;
+	}
+	.description {
+		padding-bottom: 6rem;
+	}
+	.faq-section {
+		text-align: left;
+		.answer {
+			font-size: 2.2rem;
+			padding-top: 1.6rem;
+			padding-bottom: 3.1rem;
+		}
+	}
+	.seperator-sub {
+		margin: 0 auto;
+		width: 100%;
+	}
+}

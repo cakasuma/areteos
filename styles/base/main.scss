@@ -1,0 +1,69 @@
+body,
+header,
+section,
+footer,
+main,
+h1,
+h2,
+h3,
+h4,
+hr {
+    @include base-zero;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+    @include respond(phone-lg) {
+        font-size: 38%;
+    }
+
+    @include respond(phone-xl) {
+        font-size: 47%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 54%;
+    }
+
+    @include respond(tab-land) {
+        font-size: 58%;
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75.5%;
+    }
+}
+
+body {
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	font-family: $FONT_MAIN, $FONT_SECONDARY;
+}
+section {
+	padding-bottom: 6rem;
+}
+h1 {
+	font-size: 8rem;
+	color: $COLOR_COPPER_APPROX;
+}
+h2 {
+	font-size: 4.4rem;
+	font-weight: normal;
+}
+h3 {
+	font-size: 4.4rem;
+	color: $COLOR_COPPER_APPROX;
+	font-weight: normal;
+	padding-top: 6rem;
+}
+h4 {
+	padding-top: 2.8rem;
+	font-size: 2.4rem;
+}
+hr {
+	border: 0 solid $COLOR_IRON_APPROX;
+	border-top-width: .1rem;
+}

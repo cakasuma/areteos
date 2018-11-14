@@ -1,0 +1,26 @@
+.footer {
+	height: 12rem;
+	width: 100%;
+	background-color: $COLOR_SHARK_APPROX;
+	.wrapper {
+		display: flex;
+		align-items: center;
+		img {
+			width: 39.2rem;
+			height: 8.8rem;
+			@include respond(tab-port) {
+				width: 30.5rem;
+				height: 7.1rem;
+			}
+			@include respond(phone-xl) {
+				height: 8rem;
+				width: 34rem;
+			}
+		}
+	}
+	.footer-bottom {
+		width: 100%;
+		height: 2rem;
+		background-color: $COLOR_COPPER_APPROX;
+	}
+}

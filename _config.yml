@@ -1,0 +1,31 @@
+baseurl: ""
+url: https://www.cakasuma.github.io/
+title: Areteos Coin
+email: mustofa@binary.com
+author: Amam
+description: "Areteos Coin is a stablecoin that’s backed by the Global Group, giving you preferential access to a world of investment opportunities."
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: styles
+  style: compressed
+
+plugins:
+  - jekyll-compress-images
+
+compress_html:
+  clippings: all
+  endings: all
+  startings: [html, head, body]
+  blanklines: false
+  
+compress_images:
+  images_path: "./**/*.{gif,png,jpg,jpeg,svg}"
+
+imageoptim:
+  pngout: true
+  svgo: true
+  verbose: false

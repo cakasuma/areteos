@@ -1,0 +1,149 @@
+.wrapper {
+	height: 100%;
+	margin: 0 auto;
+	width: 80%;
+	.description {
+		margin: 0;
+	}
+	@include respond(big-desktop) {
+        width: 60%;
+    }
+}
+.seperator {
+	max-width: 60%;
+	padding-top: 1.5rem;
+	margin: 0 auto;
+}
+.description {
+	padding-top: 1.6rem;
+	font-size: 2.4rem;
+	padding-bottom: 6.8rem;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	@include respond(big-desktop) {
+        justify-content: space-between;
+	}
+	@include respond(tab-port) {
+		flex-wrap: wrap;
+	}
+}
+.row-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&:nth-child(2) {
+		margin: 0 1.5rem;
+	}
+	img {
+		width: 8rem;
+		height: 8rem;
+	}
+	@include respond(tab-land) {
+        margin-left: 0;
+    }
+}
+.row-description {
+	font-size: 2.2rem;
+	max-width: 38rem;
+}
+.first-item {
+	align-items: flex-start;
+	@include respond(tab-port) {
+		align-items: center;
+	}
+	.row-item {
+		align-items: flex-start;
+		margin-right: 0;
+		p {
+			max-width: 38rem;
+			font-size: 2.2rem;
+			margin-block-start: 1.1rem;
+			padding-left: 1.5rem;
+		}
+		.divisible-img {
+			width: 4.5rem;
+			height: 4.5rem;
+		}
+	}
+	h3 {
+		@include respond(tab-port) {
+			text-align: center;
+		}
+	}
+}
+.steps {
+	list-style: none;
+	position: relative;
+	left: 1.5rem;
+	li {
+		color: $WHITE;
+		width: 4.5rem;
+		height: 4.5rem;
+		line-height: 4.5rem;
+		font-size: 2.4rem;
+		text-align: center;
+		background-color: $BLACK;
+		margin-left: -5rem;
+		z-index: 100;
+		border-radius: 50%;
+	}
+}
+.steps::before {
+	content: " ";
+	width: .2rem;
+	background-color: $BLACK;
+	left: 30%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 2.2rem;
+	@include respond(tab-land) {
+        left: 38%;
+	}
+	@include respond(tab-port) {
+		left: 41%;
+	}
+	@include respond(phone-xl) {
+		bottom: 4.2rem;
+		left: 46%;
+	}
+	@include respond(phone-lg) {
+		bottom: 3.5rem;
+		left: 58%;
+	}
+}
+.second-item {
+	float: right;
+	align-content: center;
+	justify-content: center;
+	img {
+		height: 37rem;
+		width: 45rem;
+		padding-bottom: 1.5rem;
+		@include respond(tab-land) {
+			width: 46.5rem;
+		}
+		@include respond(tab-port) {
+			width: 66.5rem;
+			padding-top: 3.4rem;
+		}
+		@include respond(phone-xl) {
+			height: 21rem;
+			width: 41rem;
+		}
+		@include respond(phone-lg) {
+			height: 18rem;
+			width: 52rem;
+		}
+		@include respond(phone-m) {
+			width: 45rem;
+		}
+		@include respond(phone-xs) {
+			width: 38rem;
+		}
+	}
+}
