@@ -15,12 +15,6 @@ sass:
 
 plugins:
   - jekyll-compress-images
-
-compress_html:
-  clippings: all
-  endings: all
-  startings: [html, head, body]
-  blanklines: false
   
 compress_images:
   images_path: "./**/*.{gif,png,jpg,jpeg,svg}"

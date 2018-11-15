@@ -1,3 +1,5 @@
 _site
 .sass-cache
 .jekyll-metadata
+_compress_images_cache.yml
+Gemfile.lock
