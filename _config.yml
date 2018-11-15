@@ -19,6 +19,8 @@ plugins:
 compress_images:
   images_path: "./**/*.{gif,png,jpg,jpeg,svg}"
 
+exclude: ['styles/abstracts', 'styles/base', 'styles/components','styles/layouts','styles/pages']
+
 imageoptim:
   pngout: true
   svgo: true
