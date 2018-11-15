@@ -14,25 +14,20 @@ hr {
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-
-    @include respond(phone-lg) {
-        font-size: 38%;
+    @include respond(big-desktop) {
+        font-size: 75.5%;
     }
-
-    @include respond(phone-xl) {
-        font-size: 47%;
-    }
-
-    @include respond(tab-port) {
-        font-size: 54%;
-    }
-
     @include respond(tab-land) {
         font-size: 58%;
     }
-
-    @include respond(big-desktop) {
-        font-size: 75.5%;
+    @include respond(tab-port) {
+        font-size: 54%;
+    }
+    @include respond(phone-xl) {
+        font-size: 47%;
+    }
+    @include respond(phone-lg) {
+        font-size: 38%;
     }
 }
 
