@@ -102,7 +102,7 @@
 		top: 0;
 		bottom: 2.2rem;
 		@include respond(tab-land) {
-			left: 38%;
+			left: 44%;
 		}
 		@include respond(tab-port) {
 			left: 41%;
@@ -126,7 +126,7 @@
 		width: 45rem;
 		padding-bottom: 1.5rem;
 		@include respond(tab-land) {
-			width: 46.5rem;
+			width: 36.5rem;
 		}
 		@include respond(tab-port) {
 			width: 66.5rem;
