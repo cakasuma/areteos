@@ -5,27 +5,27 @@
 
 @mixin respond($breakpoint) {
     @if $breakpoint == phone-xs {
-        @media only screen and (max-width: 320px) { @content };
+        @media all and (max-width: 320px) { @content };
     }
     @if $breakpoint == phone-s {
-        @media only screen and (max-width: 360px) { @content };
+        @media all and (max-width: 360px) { @content };
     }
     @if $breakpoint == phone-m {
-        @media only screen and (max-width: 375px) { @content };
+        @media all and (max-width: 375px) { @content };
     }
     @if $breakpoint == phone-lg {
-        @media only screen and (max-width: 420px) { @content };
+        @media all and (max-width: 420px) { @content };
     }
     @if $breakpoint == phone-xl {
-        @media only screen and (max-width: 600px) { @content };
+        @media all and (max-width: 600px) { @content };
     }
     @if $breakpoint == tab-port {
-        @media only screen and (max-width: 820px) { @content };
+        @media all and (max-width: 820px) { @content };
     }
     @if $breakpoint == tab-land {
-        @media only screen and (max-width: 1024px) { @content };
+        @media all and (max-width: 1024px) { @content };
     }
     @if $breakpoint == big-desktop {
-        @media only screen and (min-width: 1700px) { @content };
+        @media all and (min-width: 1700px) { @content };
     }
 }
