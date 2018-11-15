@@ -91,29 +91,30 @@
 		z-index: 100;
 		border-radius: 50%;
 	}
-}
-.steps::before {
-	content: " ";
-	width: .2rem;
-	background-color: $BLACK;
-	left: 30%;
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	bottom: 2.2rem;
-	@include respond(tab-land) {
-        left: 38%;
-	}
-	@include respond(tab-port) {
-		left: 41%;
-	}
-	@include respond(phone-xl) {
-		bottom: 4.2rem;
-		left: 46%;
-	}
-	@include respond(phone-lg) {
-		bottom: 3.5rem;
-		left: 58%;
+
+	&::before {
+		content: " ";
+		width: .2rem;
+		background-color: $BLACK;
+		left: 30%;
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		bottom: 2.2rem;
+		@include respond(tab-land) {
+			left: 38%;
+		}
+		@include respond(tab-port) {
+			left: 41%;
+		}
+		@include respond(phone-xl) {
+			bottom: 4.2rem;
+			left: 46%;
+		}
+		@include respond(phone-lg) {
+			bottom: 3.5rem;
+			left: 58%;
+		}
 	}
 }
 .second-item {
