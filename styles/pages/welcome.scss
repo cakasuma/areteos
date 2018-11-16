@@ -115,7 +115,10 @@
         }
         @include respond(phone-lg) {
             margin-bottom: 7.7rem;
-        }
+		}
+		@include respond(phone-s) {
+			margin-bottom: 3.7rem;
+		}
 	}
 	.step-2 {
 		margin-bottom: 4.5rem;
@@ -124,7 +127,10 @@
         }
         @include respond(phone-lg) {
             margin-bottom: 4.6rem;
-        }
+		}
+		@include respond(phone-s) {
+			margin-bottom: 2.6rem;
+		}
 	}
 	.first-item h3 {
 		max-width: 68rem;
@@ -161,7 +167,10 @@
 		}
 		@include respond(phone-xl) {
 			margin-bottom: 4.7rem;
-        }
+		}
+		@include respond(phone-s) {
+			margin-bottom: 3.7rem;
+		}
 	}
 	.step-2 {
 		margin-bottom: 4.2rem;
@@ -170,7 +179,10 @@
         }
         @include respond(phone-lg) {
             margin-bottom: 4rem;
-        }
+		}
+		@include respond(phone-s) {
+			margin-bottom: 3rem;
+		}
 	}
 	.row {
 		height: 100%;
