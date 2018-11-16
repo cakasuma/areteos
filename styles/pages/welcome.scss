@@ -58,33 +58,17 @@
 	text-align: center;
 	background-color: $COLOR_LIGHT_GREY;
 	width: 100%;
-	h3 {
-		padding-top: 6rem;
-	}
-	.row-item:nth-child(2) {
-		margin: 0 5rem;
-		@include respond(tab-port) {
-			margin: 3.4rem 0;
-		}
-	}
+	@include title-space;
+	@include row-item-responsive;
 }
 .technical-implementation {
 	text-align: center;
 	width: 100%;
-	h3 {
-		padding-top: 6rem;
-	}
-	.row-item:nth-child(2) {
-		margin: 0 5rem;
-		@include respond(tab-port) {
-			margin: 3.4rem 0;
-		}
-	}
+	@include title-space;
+	@include row-item-responsive;
 }
 .coin-buy {
-	h3 {
-		padding-top: 6rem;
-	}
+	@include title-space;
 	.row {
 		height: 100%;
 		justify-content: space-between;
@@ -177,9 +161,6 @@
 		@include respond(phone-xl) {
 			margin-bottom: 4rem;
 		}
-		@include respond(phone-lg) {
-			margin-bottom: 4rem;
-		}
 		@include respond(phone-s) {
 			margin-bottom: 3rem;
 		}
@@ -221,9 +202,7 @@
 .faq {
 	text-align: center;
 	width: 100%;
-	h3 {
-		padding-top: 6rem;
-	}
+	@include title-space;
 	.description {
 		padding-bottom: 6rem;
 	}

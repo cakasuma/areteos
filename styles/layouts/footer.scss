@@ -1,6 +1,5 @@
 .footer {
-	height: 12rem;
-	width: 100%;
+	@include navigation-size;
 	background-color: $COLOR_LIGHT_BLACK;
 	.wrapper {
 		display: flex;

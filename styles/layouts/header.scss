@@ -1,6 +1,5 @@
 nav {
-	height: 12rem;
-	width: 100%;
+	@include navigation-size;
 	position: fixed;
 	background-color: $COLOR_LIGHT_BLACK;
 	z-index: 101;

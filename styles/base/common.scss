@@ -121,6 +121,8 @@
 	float: right;
 	align-content: center;
 	justify-content: center;
+	align-items: center;
+	width: 100%;
 	img {
 		height: 37rem;
 		width: 45rem;
@@ -138,13 +140,6 @@
 		}
 		@include respond(phone-lg) {
 			height: 18rem;
-			width: 52rem;
-		}
-		@include respond(phone-m) {
-			width: 45rem;
-		}
-		@include respond(phone-xs) {
-			width: 38rem;
 		}
 	}
 }

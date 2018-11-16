@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+@mixin navigation-size {
+	height: 12rem;
+	width: 100%;
+}
 @mixin respond($breakpoint) {
 	@if $breakpoint == phone-xs {
 		@media all and (max-width: 320px) { @content; }
@@ -26,5 +30,18 @@
 	}
 	@if $breakpoint == big-desktop {
 		@media all and (min-width: 1700px) { @content; }
+	}
+}
+@mixin row-second-responsive {
+	.row-item:nth-child(2) {
+		margin: 0 5rem;
+		@include respond(tab-port) {
+			margin: 3.4rem 0;
+		}
+	}
+}
+@mixin title-space {
+	h3 {
+		padding-top: 6rem;
 	}
 }
