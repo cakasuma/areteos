@@ -24,17 +24,17 @@
 	}
 	.title {
 		font-weight: bold;
-		color: $COLOR_COPPER_APPROX;
+		color: $COLOR_LIGHT_BROWN;
 	}
 	h2 {
-		color: $WHITE;
+		color: $COLOR_WHITE;
 		max-width: 120rem;
 		padding-top: 2.7rem;
 	}
 	p {
 		padding-top: 3.2rem;
 		max-width: 64.3rem;
-		color: $WHITE;
+		color: $COLOR_WHITE;
 		font-size: 2.8rem;
 		@include respond(phone-xl) {
 			padding-bottom: 2rem;
@@ -56,7 +56,7 @@
 }
 .coin-use {
 	text-align: center;
-	background-color: $COLOR_IRON_APPROX;
+	background-color: $COLOR_LIGHT_GREY;
 	width: 100%;
 	h3 {
 		padding-top: 6rem;
