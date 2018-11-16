@@ -41,7 +41,7 @@
 		}
 	}
 	.wrapper {
-		padding-top: 12rem;
+		padding-top: $NAVIGATION_HEIGHT;
 	}
 }
 .coin-works {
@@ -58,17 +58,17 @@
 	text-align: center;
 	background-color: $COLOR_LIGHT_GREY;
 	width: 100%;
-	@include title-space;
+	@include h3-padding-top;
 	@include row-second-responsive;
 }
 .technical-implementation {
 	text-align: center;
 	width: 100%;
-	@include title-space;
+	@include h3-padding-top;
 	@include row-second-responsive;
 }
 .coin-buy {
-	@include title-space;
+	@include h3-padding-top;
 	.row {
 		height: 100%;
 		justify-content: space-between;
@@ -202,7 +202,7 @@
 .faq {
 	text-align: center;
 	width: 100%;
-	@include title-space;
+	@include h3-padding-top;
 	.description {
 		padding-bottom: 6rem;
 	}
