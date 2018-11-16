@@ -59,13 +59,13 @@
 	background-color: $COLOR_LIGHT_GREY;
 	width: 100%;
 	@include title-space;
-	@include row-item-responsive;
+	@include row-second-responsive;
 }
 .technical-implementation {
 	text-align: center;
 	width: 100%;
 	@include title-space;
-	@include row-item-responsive;
+	@include row-second-responsive;
 }
 .coin-buy {
 	@include title-space;
