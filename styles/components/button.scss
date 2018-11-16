@@ -1,13 +1,13 @@
 button {
-    background-color: $COLOR_COPPER_APPROX;
-    color: $WHITE;
-    padding: 2.2rem 4rem;
-    border-radius: 4rem;
-    border: none;
-    font-size: 2.4rem;
-    &:hover {
-        cursor: pointer;
-        background-color: $COLOR_KUMERA_APPROX;
-        transition: all 0.1s ease-in;
-    }
+	background-color: $COLOR_COPPER_APPROX;
+	color: $WHITE;
+	padding: 2.2rem 4rem;
+	border-radius: 4rem;
+	border: none;
+	font-size: 2.4rem;
+	&:hover {
+		cursor: pointer;
+		background-color: $COLOR_KUMERA_APPROX;
+		transition: all 0.1s ease-in;
+	}
 }

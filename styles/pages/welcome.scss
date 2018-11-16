@@ -18,10 +18,10 @@
 	@include respond(tab-port) {
 		background-position: 30% 70%;
 	}
-    @include respond(phone-xs) {
+	@include respond(phone-xs) {
 		background-image: $URL_HEADER_IMG_W826;
 		background-position: 20% 20%;
-    }
+	}
 	.title {
 		font-weight: bold;
 		color: $COLOR_COPPER_APPROX;
@@ -41,7 +41,7 @@
 		}
 	}
 	.wrapper {
-        padding-top: 12rem;
+		padding-top: 12rem;
 	}
 }
 .coin-works {
@@ -112,9 +112,9 @@
 		margin-bottom: 7.2rem;
 		@include respond(phone-xl) {
 			margin-bottom: 7.4rem;
-        }
-        @include respond(phone-lg) {
-            margin-bottom: 7.7rem;
+		}
+		@include respond(phone-lg) {
+			margin-bottom: 7.7rem;
 		}
 		@include respond(phone-s) {
 			margin-bottom: 3.7rem;
@@ -124,9 +124,9 @@
 		margin-bottom: 4.5rem;
 		@include respond(phone-xl) {
 			margin-bottom: 4.8rem;
-        }
-        @include respond(phone-lg) {
-            margin-bottom: 4.6rem;
+		}
+		@include respond(phone-lg) {
+			margin-bottom: 4.6rem;
 		}
 		@include respond(phone-s) {
 			margin-bottom: 2.6rem;
@@ -142,10 +142,10 @@
 		}
 		@include respond(phone-xl) {
 			min-width: 36rem;
-        }
-        @include respond(phone-lg) {
-            min-width: 0;
-        }
+		}
+		@include respond(phone-lg) {
+			min-width: 0;
+		}
 	}
 }
 .coin-redeem {
@@ -176,9 +176,9 @@
 		margin-bottom: 4.2rem;
 		@include respond(phone-xl) {
 			margin-bottom: 4rem;
-        }
-        @include respond(phone-lg) {
-            margin-bottom: 4rem;
+		}
+		@include respond(phone-lg) {
+			margin-bottom: 4rem;
 		}
 		@include respond(phone-s) {
 			margin-bottom: 3rem;

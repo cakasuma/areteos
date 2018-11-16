@@ -6,8 +6,8 @@
 		margin: 0;
 	}
 	@include respond(big-desktop) {
-        width: 60%;
-    }
+		width: 60%;
+	}
 }
 .seperator {
 	max-width: 60%;
@@ -25,7 +25,7 @@
 	justify-content: center;
 	align-items: stretch;
 	@include respond(big-desktop) {
-        justify-content: space-between;
+		justify-content: space-between;
 	}
 	@include respond(tab-port) {
 		flex-wrap: wrap;
@@ -43,8 +43,8 @@
 		height: 8rem;
 	}
 	@include respond(tab-land) {
-        margin-left: 0;
-    }
+		margin-left: 0;
+	}
 }
 .row-description {
 	font-size: 2.2rem;
