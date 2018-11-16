@@ -1,15 +1,15 @@
-.header-title {
+nav {
 	height: 12rem;
 	width: 100%;
-	background-color: $COLOR_SHARK_APPROX;
 	position: fixed;
+	background-color: $COLOR_SHARK_APPROX;
 	z-index: 101;
 	.wrapper {
 		display: flex;
-        align-items: center;
-        @include respond(phone-lg) {
-            margin: 0 3rem;
-        }
+		align-items: center;
+		@include respond(phone-lg) {
+			margin: 0 3rem;
+		}
 	}
 	img {
 		width: 39.2rem;
@@ -17,10 +17,10 @@
 		@include respond(tab-port) {
 			width: 30.5rem;
 			height: 7.1rem;
-        }
-        @include respond(phone-xl) {
-            height: 8rem;
-		    width: 34rem;
-        }
+		}
+		@include respond(phone-xl) {
+			height: 8rem;
+			width: 34rem;
+		}
 	}
 }

@@ -8,27 +8,30 @@ h2,
 h3,
 h4,
 hr {
-    @include base-zero;
+	@include base-zero;
 }
 
 html {
-    font-size: 62.5%; /* 1rem = 10px */
-    box-sizing: border-box;
-    @include respond(big-desktop) {
-        font-size: 75.5%; /* 1rem = 12px */
-    }
-    @include respond(tab-land) {
-        font-size: 58%; /* 1rem = 9.2px */
-    }
-    @include respond(tab-port) {
-        font-size: 54%; /* 1rem = 8.6px */
-    }
-    @include respond(phone-xl) {
-        font-size: 47%; /* 1rem = 7.5px */
-    }
-    @include respond(phone-lg) {
-        font-size: 38%; /* 1rem = 6px */
-    }
+	font-size: 62.5%; /* 1rem = 10px */
+	box-sizing: border-box;
+	@include respond(big-desktop) {
+		font-size: 75.5%; /* 1rem = 12px */
+	}
+	@include respond(tab-land) {
+		font-size: 50%; /* 1rem = 9.2px */
+	}
+	@include respond(tab-port) {
+		font-size: 47%; /* 1rem = 8.6px */
+	}
+	@include respond(phone-xl) {
+		font-size: 38%; /* 1rem = 7.5px */
+	}
+	@include respond(phone-lg) {
+		font-size: 35%; /* 1rem = 6px */
+	}
+	@include respond(phone-s) {
+		font-size: 32%;
+	}
 }
 
 body {

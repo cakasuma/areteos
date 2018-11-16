@@ -6,8 +6,8 @@
 		margin: 0;
 	}
 	@include respond(big-desktop) {
-        width: 60%;
-    }
+		width: 60%;
+	}
 }
 .seperator {
 	max-width: 60%;
@@ -25,7 +25,7 @@
 	justify-content: center;
 	align-items: stretch;
 	@include respond(big-desktop) {
-        justify-content: space-between;
+		justify-content: space-between;
 	}
 	@include respond(tab-port) {
 		flex-wrap: wrap;
@@ -43,8 +43,8 @@
 		height: 8rem;
 	}
 	@include respond(tab-land) {
-        margin-left: 0;
-    }
+		margin-left: 0;
+	}
 }
 .row-description {
 	font-size: 2.2rem;
@@ -102,14 +102,14 @@
 		top: 0;
 		bottom: 2.2rem;
 		@include respond(tab-land) {
-			left: 38%;
+			left: 44%;
 		}
 		@include respond(tab-port) {
 			left: 41%;
 		}
 		@include respond(phone-xl) {
 			bottom: 4.2rem;
-			left: 46%;
+			left: 58%;
 		}
 		@include respond(phone-lg) {
 			bottom: 3.5rem;
@@ -126,7 +126,7 @@
 		width: 45rem;
 		padding-bottom: 1.5rem;
 		@include respond(tab-land) {
-			width: 46.5rem;
+			width: 36.5rem;
 		}
 		@include respond(tab-port) {
 			width: 66.5rem;
@@ -134,7 +134,7 @@
 		}
 		@include respond(phone-xl) {
 			height: 21rem;
-			width: 41rem;
+			width: 52rem;
 		}
 		@include respond(phone-lg) {
 			height: 18rem;
