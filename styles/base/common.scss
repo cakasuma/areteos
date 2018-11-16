@@ -101,6 +101,9 @@
 		z-index: -1;
 		top: 0;
 		bottom: 2.2rem;
+		@include respond(big-desktop) {
+			left: 23%;
+		}
 		@include respond(tab-land) {
 			left: 44%;
 		}

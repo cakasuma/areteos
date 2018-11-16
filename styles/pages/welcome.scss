@@ -103,6 +103,9 @@
 		@include respond(phone-s) {
 			margin-bottom: 3.7rem;
 		}
+		@include respond(phone-xs) {
+			margin-bottom: 5.7rem;
+		}
 	}
 	.step-2 {
 		margin-bottom: 4.5rem;
@@ -146,6 +149,9 @@
 	}
 	.step-1 {
 		margin-bottom: 5.2rem;
+		@include respond(big-desktop) {
+			margin-bottom: 8.2rem;
+		}
 		@include respond(tab-land) {
 			margin-bottom: 5rem;
 		}
@@ -158,6 +164,12 @@
 	}
 	.step-2 {
 		margin-bottom: 4.2rem;
+		@include respond(big-desktop) {
+			margin-bottom: 7.2rem;
+		}
+		@include respond(tab-port) {
+			margin-bottom: 6.2rem;
+		}
 		@include respond(phone-xl) {
 			margin-bottom: 4rem;
 		}
