@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-
 @mixin respond($breakpoint) {
 	@if $breakpoint == phone-xs {
 		@media all and (max-width: 320px) { @content; }
