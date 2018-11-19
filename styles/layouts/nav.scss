@@ -1,0 +1,25 @@
+nav {
+	@include navigation-size;
+	position: fixed;
+	background-color: $COLOR_LIGHT_BLACK;
+	z-index: 101;
+	.wrapper {
+		display: flex;
+		align-items: center;
+		@include respond(phone-lg) {
+			margin: 0 3rem;
+		}
+	}
+	img {
+		width: 39.2rem;
+		height: 8.8rem;
+		@include respond(tab-port) {
+			width: 30.5rem;
+			height: 7.1rem;
+		}
+		@include respond(phone-xl) {
+			height: 8rem;
+			width: 34rem;
+		}
+	}
+}

@@ -1,67 +1,47 @@
 @import '../components/button';
-@import '../layouts/header';
+@import '../layouts/nav';
 @import '../layouts/footer.scss';
 
 .header-bar {
-	min-height: 63rem;
+	min-height: 80rem;
 	width: 100%;
 	background-image: $URL_HEADER_IMG;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 40% 50%;
+	display: flex;
+	align-items: center;
 	margin-top: -1px;
-	padding-top: 12rem;
-	padding-bottom: 1rem;
 	@include respond(tab-land) {
-		min-height: 67.5rem;
 		background-position: 16% 16%;
 	}
 	@include respond(tab-port) {
 		background-position: 30% 70%;
 	}
-	@include respond(phone-xl) {
-		min-height: 88.5rem;
-    }
-    @include respond(phone-lg) {
-        min-height: 69rem;
-    }
-    @include respond(phone-m) {
-        min-height: 77rem;
-    }
-    @include respond(phone-s) {
-        min-height: 81rem;
-    }
-    @include respond(phone-xs) {
-        min-height: 84rem;
+	@include respond(phone-xs) {
 		background-image: $URL_HEADER_IMG_W826;
 		background-position: 20% 20%;
-    }
+	}
 	.title {
 		font-weight: bold;
-		color: $COLOR_COPPER_APPROX;
+		color: $COLOR_LIGHT_BROWN;
 	}
 	h2 {
-		color: $WHITE;
+		color: $COLOR_WHITE;
 		max-width: 120rem;
 		padding-top: 2.7rem;
 	}
 	p {
 		padding-top: 3.2rem;
 		max-width: 64.3rem;
-		color: $WHITE;
+		color: $COLOR_WHITE;
 		font-size: 2.8rem;
 		@include respond(phone-xl) {
 			padding-bottom: 2rem;
 		}
 	}
 	.wrapper {
-        padding-top: 9.3rem;
-        @include respond(phone-lg) {
-            padding-top: 6.3rem;
-        }
-        @include respond(phone-xs) {
-            padding-top: 5.3rem;
-        }
+		padding-top: $NAVIGATION_HEIGHT;
 	}
 }
 .coin-works {
@@ -76,35 +56,19 @@
 }
 .coin-use {
 	text-align: center;
-	background-color: $COLOR_IRON_APPROX;
+	background-color: $COLOR_LIGHT_GREY;
 	width: 100%;
-	h3 {
-		padding-top: 6rem;
-	}
-	.row-item:nth-child(2) {
-		margin: 0 5rem;
-		@include respond(tab-port) {
-			margin: 3.4rem 0;
-		}
-	}
+	@include h3-padding-top;
+	@include row-second-responsive;
 }
 .technical-implementation {
 	text-align: center;
 	width: 100%;
-	h3 {
-		padding-top: 6rem;
-	}
-	.row-item:nth-child(2) {
-		margin: 0 5rem;
-		@include respond(tab-port) {
-			margin: 3.4rem 0;
-		}
-	}
+	@include h3-padding-top;
+	@include row-second-responsive;
 }
 .coin-buy {
-	h3 {
-		padding-top: 6rem;
-	}
+	@include h3-padding-top;
 	.row {
 		height: 100%;
 		justify-content: space-between;
@@ -132,19 +96,28 @@
 		margin-bottom: 7.2rem;
 		@include respond(phone-xl) {
 			margin-bottom: 7.4rem;
-        }
-        @include respond(phone-lg) {
-            margin-bottom: 7.7rem;
-        }
+		}
+		@include respond(phone-lg) {
+			margin-bottom: 7.7rem;
+		}
+		@include respond(phone-s) {
+			margin-bottom: 3.7rem;
+		}
+		@include respond(phone-xs) {
+			margin-bottom: 5.7rem;
+		}
 	}
 	.step-2 {
 		margin-bottom: 4.5rem;
 		@include respond(phone-xl) {
 			margin-bottom: 4.8rem;
-        }
-        @include respond(phone-lg) {
-            margin-bottom: 4.6rem;
-        }
+		}
+		@include respond(phone-lg) {
+			margin-bottom: 4.6rem;
+		}
+		@include respond(phone-s) {
+			margin-bottom: 2.6rem;
+		}
 	}
 	.first-item h3 {
 		max-width: 68rem;
@@ -156,10 +129,10 @@
 		}
 		@include respond(phone-xl) {
 			min-width: 36rem;
-        }
-        @include respond(phone-lg) {
-            min-width: 0;
-        }
+		}
+		@include respond(phone-lg) {
+			min-width: 0;
+		}
 	}
 }
 .coin-redeem {
@@ -175,22 +148,34 @@
 		}
 	}
 	.step-1 {
-		margin-bottom: 7.2rem;
+		margin-bottom: 5.2rem;
+		@include respond(big-desktop) {
+			margin-bottom: 8.2rem;
+		}
+		@include respond(tab-land) {
+			margin-bottom: 5rem;
+		}
 		@include respond(phone-xl) {
 			margin-bottom: 4.7rem;
-        }
-        @include respond(phone-lg) {
-            margin-bottom: 4.7rem;
-        }
+		}
+		@include respond(phone-s) {
+			margin-bottom: 3.7rem;
+		}
 	}
 	.step-2 {
 		margin-bottom: 4.2rem;
+		@include respond(big-desktop) {
+			margin-bottom: 7.2rem;
+		}
+		@include respond(tab-port) {
+			margin-bottom: 6.2rem;
+		}
 		@include respond(phone-xl) {
 			margin-bottom: 4rem;
-        }
-        @include respond(phone-lg) {
-            margin-bottom: 4rem;
-        }
+		}
+		@include respond(phone-s) {
+			margin-bottom: 3rem;
+		}
 	}
 	.row {
 		height: 100%;
@@ -214,7 +199,7 @@
 		}
 	}
 	.second-item {
-		padding-right: 23rem;
+		padding-right: 19rem;
 		@include respond(big-desktop) {
 			padding: 13rem;
 		}
@@ -229,9 +214,7 @@
 .faq {
 	text-align: center;
 	width: 100%;
-	h3 {
-		padding-top: 6rem;
-	}
+	@include h3-padding-top;
 	.description {
 		padding-bottom: 6rem;
 	}

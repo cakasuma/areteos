@@ -8,27 +8,30 @@ h2,
 h3,
 h4,
 hr {
-    @include base-zero;
+	@include base-zero;
 }
 
 html {
-    font-size: 62.5%; /* 1rem = 10px */
-    box-sizing: border-box;
-    @include respond(big-desktop) {
-        font-size: 75.5%; /* 1rem = 12px */
-    }
-    @include respond(tab-land) {
-        font-size: 58%; /* 1rem = 9.2px */
-    }
-    @include respond(tab-port) {
-        font-size: 54%; /* 1rem = 8.6px */
-    }
-    @include respond(phone-xl) {
-        font-size: 47%; /* 1rem = 7.5px */
-    }
-    @include respond(phone-lg) {
-        font-size: 38%; /* 1rem = 6px */
-    }
+	font-size: 62.5%; /* 1rem = 10px */
+	box-sizing: border-box;
+	@include respond(big-desktop) {
+		font-size: 75.5%; /* 1rem = 12px */
+	}
+	@include respond(tab-land) {
+		font-size: 50%; /* 1rem = 8px */
+	}
+	@include respond(tab-port) {
+		font-size: 47%; /* 1rem = 7.5px */
+	}
+	@include respond(phone-xl) {
+		font-size: 38%; /* 1rem = 6px */
+	}
+	@include respond(phone-lg) {
+		font-size: 35%; /* 1rem = 5.5px */
+	}
+	@include respond(phone-s) {
+		font-size: 32%; /* 1rem = 5px */
+	}
 }
 
 body {
@@ -42,7 +45,7 @@ section {
 }
 h1 {
 	font-size: 8rem;
-	color: $COLOR_COPPER_APPROX;
+	color: $COLOR_LIGHT_BROWN;
 }
 h2 {
 	font-size: 4.4rem;
@@ -50,7 +53,7 @@ h2 {
 }
 h3 {
 	font-size: 4.4rem;
-	color: $COLOR_COPPER_APPROX;
+	color: $COLOR_LIGHT_BROWN;
 	font-weight: normal;
 	padding-top: 6rem;
 }
@@ -59,6 +62,6 @@ h4 {
 	font-size: 2.4rem;
 }
 hr {
-	border: 0 solid $COLOR_IRON_APPROX;
+	border: 0 solid $COLOR_LIGHT_GREY;
 	border-top-width: .1rem;
 }
