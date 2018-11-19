@@ -18,7 +18,7 @@
 	@include respond(tab-port) {
 		background-position: 30% 70%;
 	}
-	@include respond(phone-xs) {
+	@media all and (max-width: 320px) {
 		background-image: $URL_HEADER_IMG_W826;
 		background-position: 20% 20%;
 	}
@@ -100,11 +100,8 @@
 		@include respond(phone-lg) {
 			margin-bottom: 7.7rem;
 		}
-		@include respond(phone-s) {
-			margin-bottom: 3.7rem;
-		}
-		@include respond(phone-xs) {
-			margin-bottom: 5.7rem;
+		@media all and (max-width: 320px) {
+			margin-bottom: 6.7rem;
 		}
 	}
 	.step-2 {
@@ -114,9 +111,6 @@
 		}
 		@include respond(phone-lg) {
 			margin-bottom: 4.6rem;
-		}
-		@include respond(phone-s) {
-			margin-bottom: 2.6rem;
 		}
 	}
 	.first-item h3 {
@@ -158,9 +152,6 @@
 		@include respond(phone-xl) {
 			margin-bottom: 4.7rem;
 		}
-		@include respond(phone-s) {
-			margin-bottom: 3.7rem;
-		}
 	}
 	.step-2 {
 		margin-bottom: 4.2rem;
@@ -169,9 +160,6 @@
 		}
 		@include respond(phone-xl) {
 			margin-bottom: 4rem;
-		}
-		@include respond(phone-s) {
-			margin-bottom: 3rem;
 		}
 	}
 	.row {
@@ -200,7 +188,7 @@
 		@include respond(big-desktop) {
 			padding: 13rem;
 		}
-		@include respond(medium-desktop) {
+		@media all and (max-width: 1250px) {
 			padding-right:1rem;
 		}
 		@include respond(tab-land) {

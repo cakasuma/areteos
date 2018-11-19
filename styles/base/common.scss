@@ -55,6 +55,9 @@
 	@include respond(tab-port) {
 		align-items: center;
 	}
+	.step {
+		display: inline-block;
+	}
 	.row-item {
 		align-items: flex-start;
 		margin-right: 0;
@@ -100,7 +103,7 @@
 		position: absolute;
 		z-index: -1;
 		top: .5rem;
-		bottom: 2.2rem;
+		height: calc(100% - 20px);
 		@include respond(big-desktop) {
 			left: 0.7rem;
 		}
@@ -111,7 +114,6 @@
 			left: 2.7rem;
 		}
 		@include respond(phone-xl) {
-			bottom: 4.2rem;
 			left: 3.9rem;
 		}
 		@include respond(phone-lg) {
