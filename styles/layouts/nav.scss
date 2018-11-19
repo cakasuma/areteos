@@ -6,6 +6,9 @@ nav {
 	.wrapper {
 		display: flex;
 		align-items: center;
+		@include respond(phone-lg) {
+			margin: 0 4rem;
+		}
 		img {
 			width: 39.2rem;
 			height: 8.8rem;

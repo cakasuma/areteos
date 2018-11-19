@@ -150,7 +150,7 @@
 	.step-1 {
 		margin-bottom: 5.2rem;
 		@include respond(big-desktop) {
-			margin-bottom: 8.2rem;
+			margin-bottom: 5.2rem;
 		}
 		@include respond(tab-land) {
 			margin-bottom: 5rem;
@@ -164,9 +164,6 @@
 	}
 	.step-2 {
 		margin-bottom: 4.2rem;
-		@include respond(big-desktop) {
-			margin-bottom: 7.2rem;
-		}
 		@include respond(tab-port) {
 			margin-bottom: 6.2rem;
 		}
