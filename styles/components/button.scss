@@ -5,6 +5,9 @@ button {
 	border-radius: 4rem;
 	border: none;
 	font-size: 2.4rem;
+	&:focus {
+		outline: none;
+	}
 	&:hover {
 		cursor: pointer;
 		background-color: $COLOR_BROWN;
