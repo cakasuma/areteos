@@ -200,6 +200,9 @@
 		@include respond(big-desktop) {
 			padding: 13rem;
 		}
+		@include respond(medium-desktop) {
+			padding-right:1rem;
+		}
 		@include respond(tab-land) {
 			padding-right: 2.5rem;
 		}
