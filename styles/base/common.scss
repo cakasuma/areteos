@@ -96,27 +96,27 @@
 		content: " ";
 		width: .2rem;
 		background-color: $COLOR_BLACK;
-		left: 30%;
+		left: 1.3rem;
 		position: absolute;
 		z-index: -1;
-		top: 0;
+		top: .5rem;
 		bottom: 2.2rem;
 		@include respond(big-desktop) {
-			left: 23%;
+			left: 0.7rem;
 		}
 		@include respond(tab-land) {
-			left: 44%;
+			left: 2.4rem;
 		}
 		@include respond(tab-port) {
-			left: 41%;
+			left: 2.7rem;
 		}
 		@include respond(phone-xl) {
 			bottom: 4.2rem;
-			left: 58%;
+			left: 3.9rem;
 		}
 		@include respond(phone-lg) {
 			bottom: 3.5rem;
-			left: 58%;
+			left: 4rem;
 		}
 	}
 }
@@ -132,6 +132,9 @@
 		height: 37rem;
 		width: 45rem;
 		padding-bottom: 1.5rem;
+		@include respond(big-desktop) {
+			width: 50rem;
+		}
 		@include respond(tab-land) {
 			width: 36.5rem;
 		}
