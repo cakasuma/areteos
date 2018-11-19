@@ -125,7 +125,9 @@
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	@include respond(tab-port) {
+		width: 100%;
+	}
 	img {
 		height: 37rem;
 		width: 45rem;
