@@ -10,7 +10,6 @@ h4,
 hr {
 	@include base-zero;
 }
-
 html {
 	font-size: 62.5%; /* 1rem = 10px */
 	box-sizing: border-box;
@@ -29,11 +28,7 @@ html {
 	@include respond(phone-lg) {
 		font-size: 35%; /* 1rem = 5.5px */
 	}
-	@include respond(phone-s) {
-		font-size: 32%; /* 1rem = 5px */
-	}
 }
-
 body {
 	overflow-x: hidden;
 	width: 100%;
@@ -46,6 +41,9 @@ section {
 h1 {
 	font-size: 8rem;
 	color: $COLOR_LIGHT_BROWN;
+	@media all and (max-width: 360px) {
+		font-size: 6.5rem;
+	}
 }
 h2 {
 	font-size: 4.4rem;
